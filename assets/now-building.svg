@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 166" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090e18" />
+      <stop offset="100%" stop-color="#0b1322" />
+    </linearGradient>
+    <linearGradient id="tealWave" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="greenGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .section-tag { font-size: 11px; font-weight: 700; fill: #22c55e; letter-spacing: 1.8px; }
+    .card-title { font-size: 20px; font-weight: 700; fill: #f8fafc; }
+    .desc { font-size: 12.5px; fill: #8b9cb5; line-height: 1.45; }
+    .meta-text { font-size: 11.5px; fill: #8b9cb5; }
+    .badge-text { font-size: 10px; fill: #64748b; font-weight: 600; }
+    .progress-text { font-size: 11px; fill: #34d399; font-weight: 600; }
+    .quote-accent { font-size: 9.5px; font-weight: 600; fill: #5a6e8c; letter-spacing: 1.6px; }
+  </style>
+
+  <!-- Background -->
+  <rect width="920" height="166" fill="#030712" />
+
+  <!-- Section Header -->
+  <g transform="translate(16, 16)">
+    <circle cx="4" cy="4" r="3.5" fill="#22c55e" filter="url(#greenGlow)" />
+    <text x="16" y="7.5" class="font-mono section-tag">NOW BUILDING</text>
+  </g>
+
+  <!-- Main Card Container -->
+  <g transform="translate(16, 32)">
+    <!-- Card Base -->
+    <rect width="888" height="122" rx="10" fill="url(#cardGrad)" stroke="#1a2b44" stroke-width="1" />
+
+    <!-- Left Device / App Icon -->
+    <g transform="translate(24, 26)">
+      <rect width="32" height="34" rx="6" fill="#0b1527" stroke="#253856" stroke-width="1.2" />
+      <rect x="6" y="8" width="20" height="13" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+      <line x1="11" y1="26" x2="21" y2="26" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" />
+      <circle cx="16" cy="5" r="1" fill="#38bdf8" />
+    </g>
+
+    <!-- Title & Badges -->
+    <text x="68" y="44" class="font-sans card-title">CallShield</text>
+
+    <g transform="translate(178, 30)">
+      <rect width="44" height="18" rx="9" fill="#0c1626" stroke="#1f3250" stroke-width="1" />
+      <text x="22" y="12.5" text-anchor="middle" class="font-sans badge-text">Public</text>
+    </g>
+
+    <!-- Description -->
+    <text x="68" y="68" class="font-sans desc">Real-time AI voice authenticity, deepfake and social-engineering</text>
+    <text x="68" y="85" class="font-sans desc">defense platform for Android, Windows, and enterprise integrations.</text>
+
+    <!-- Meta Info: Python & Stars -->
+    <g transform="translate(68, 108)">
+      <circle cx="4" cy="-3" r="4" fill="#38bdf8" />
+      <text x="14" y="0.5" class="font-sans meta-text">Python</text>
+
+      <!-- Star Icon -->
+      <g transform="translate(68, -8)">
+        <polygon points="5,0 6.5,3.2 10,3.7 7.5,6.1 8.1,9.6 5,8 1.9,9.6 2.5,6.1 0,3.7 3.5,3.2" fill="none" stroke="#8b9cb5" stroke-width="1" />
+        <text x="14" y="8" class="font-sans meta-text">1</text>
+      </g>
+    </g>
+
+    <!-- Middle Divider & Text Accent -->
+    <line x1="510" y1="28" x2="510" y2="94" stroke="#162338" stroke-width="1" />
+    <g transform="translate(530, 48)">
+      <text x="0" y="0" class="font-mono quote-accent">SAFER CALLS</text>
+      <text x="0" y="14" class="font-mono quote-accent">A BRIGHTER TOMORROW</text>
+    </g>
+
+    <!-- Middle Soundwave Graphic -->
+    <g transform="translate(710, 62)">
+      <rect x="0"  y="-6"  width="2" height="12" rx="1" fill="url(#tealWave)" />
+      <rect x="5"  y="-12" width="2" height="24" rx="1" fill="url(#tealWave)" />
+      <rect x="10" y="-18" width="2" height="36" rx="1" fill="url(#tealWave)" />
+      <rect x="15" y="-8"  width="2" height="16" rx="1" fill="url(#tealWave)" />
+      <rect x="20" y="-14" width="2" height="28" rx="1" fill="url(#tealWave)" />
+      <rect x="25" y="-22" width="2" height="44" rx="1" fill="url(#tealWave)" />
+      <rect x="30" y="-10" width="2" height="20" rx="1" fill="url(#tealWave)" />
+      <rect x="35" y="-26" width="2" height="52" rx="1" fill="url(#tealWave)" />
+      <rect x="40" y="-16" width="2" height="32" rx="1" fill="url(#tealWave)" />
+      <rect x="45" y="-9"  width="2" height="18" rx="1" fill="url(#tealWave)" />
+      <rect x="50" y="-15" width="2" height="30" rx="1" fill="url(#tealWave)" />
+      <rect x="55" y="-7"  width="2" height="14" rx="1" fill="url(#tealWave)" />
+    </g>
+
+    <!-- Status Badge: In Progress -->
+    <g transform="translate(755, 24)">
+      <rect width="90" height="24" rx="12" fill="#04231b" stroke="#065f46" stroke-width="1" />
+      <circle cx="14" cy="12" r="3" fill="#22c55e" filter="url(#greenGlow)" />
+      <text x="24" y="15.5" class="font-sans progress-text">In Progress</text>
+    </g>
+
+    <!-- Right Chevron Button -->
+    <g transform="translate(836, 48)">
+      <circle cx="15" cy="15" r="15" fill="#0f192b" stroke="#1d2e48" stroke-width="1" />
+      <polyline points="13,10 18,15 13,20" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

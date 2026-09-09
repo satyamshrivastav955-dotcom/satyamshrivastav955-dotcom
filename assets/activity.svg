@@ -1,0 +1,436 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="actCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090e18" />
+      <stop offset="100%" stop-color="#0c1322" />
+    </linearGradient>
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .header-title { font-size: 11.5px; font-weight: 700; fill: #cbd5e1; letter-spacing: 1.6px; }
+    .big-num { font-size: 32px; font-weight: 700; fill: #f8fafc; }
+    .num-sub { font-size: 11.5px; fill: #8b9cb5; font-weight: 500; }
+    .cal-label { font-size: 9px; fill: #64748b; font-family: -apple-system, sans-serif; }
+    .cal-footnote { font-size: 10px; fill: #64748b; }
+    .legend-text { font-size: 9.5px; fill: #64748b; }
+    .activity-text { font-size: 11.5px; fill: #8b9cb5; }
+    .activity-repo { font-weight: 600; fill: #38bdf8; }
+    .activity-date { font-size: 10.5px; fill: #64748b; }
+  </style>
+
+  <rect width="920" height="220" fill="#030712" />
+
+  <!-- ================= LEFT: GITHUB ACTIVITY ================= -->
+  <!-- Section Title -->
+  <g transform="translate(16, 16)">
+    <!-- Trend Chart Icon -->
+    <path d="M1 10 L5 5 L8 8 L13 2 L15 4" fill="none" stroke="#94a3b8" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M11 2 H15 V6" fill="none" stroke="#94a3b8" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="22" y="9" class="font-mono header-title">GITHUB ACTIVITY</text>
+  </g>
+
+  <!-- Left Card Base (w=570, h=175) -->
+  <g transform="translate(16, 32)">
+    <rect width="570" height="175" rx="8" fill="url(#actCardBg)" stroke="#1a2942" stroke-width="1" />
+
+    <!-- Big Stat Counter -->
+    <g transform="translate(20, 50)">
+      <text x="0" y="0" class="font-sans big-num">210</text>
+      <text x="0" y="20" class="font-sans num-sub">contributions</text>
+      <text x="0" y="34" class="font-sans num-sub">in the last year</text>
+    </g>
+
+    <!-- Contribution Heatmap Matrix -->
+    <g transform="translate(126, 20)">
+      <!-- Month Labels -->
+      <g transform="translate(24, 12)">
+        <text x="0" y="0" class="cal-label">Sep</text>
+        <text x="36" y="0" class="cal-label">Oct</text>
+        <text x="72" y="0" class="cal-label">Nov</text>
+        <text x="108" y="0" class="cal-label">Dec</text>
+        <text x="144" y="0" class="cal-label">Jan</text>
+        <text x="180" y="0" class="cal-label">Feb</text>
+        <text x="216" y="0" class="cal-label">Mar</text>
+        <text x="252" y="0" class="cal-label">Apr</text>
+        <text x="288" y="0" class="cal-label">May</text>
+        <text x="324" y="0" class="cal-label">Jun</text>
+        <text x="360" y="0" class="cal-label">Jul</text>
+        <text x="396" y="0" class="cal-label">Aug</text>
+      </g>
+
+      <!-- Day Labels -->
+      <g transform="translate(0, 36)">
+        <text x="0" y="10" class="cal-label">Mon</text>
+        <text x="0" y="36" class="cal-label">Wed</text>
+        <text x="0" y="62" class="cal-label">Fri</text>
+      </g>
+
+      <!-- Matrix Cells (32 cols x 7 rows) -->
+      <!-- Colors: c0=#101a28 (empty), c1=#064e3b (low), c2=#059669 (med), c3=#10b981 (high), c4=#34d399 (max) -->
+      <g transform="translate(24, 24)">
+        <!-- Col 0 - 3 (Sep) -->
+        <g transform="translate(0, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(13, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(26, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <!-- Col 4 - 7 (Oct/Nov) -->
+        <g transform="translate(39, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(52, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(65, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(78, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#065f46" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <!-- Col 8 - 11 (Nov/Dec) -->
+        <g transform="translate(91, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(104, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(117, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(130, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <!-- Col 12 - 15 (Jan/Feb) -->
+        <g transform="translate(143, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(156, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(169, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(182, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <!-- Col 16 - 19 (Feb/Mar) -->
+        <g transform="translate(195, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#065f46" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(208, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(221, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#065f46" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(234, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <!-- Col 20 - 23 (Apr/May) -->
+        <g transform="translate(247, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#065f46" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(260, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(273, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(286, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <!-- Col 24 - 27 (Jun/Jul) - Higher activity -->
+        <g transform="translate(299, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#065f46" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(312, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#059669" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#10b981" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(325, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#059669" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#065f46" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#047857" />
+        </g>
+        <g transform="translate(338, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#10b981" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#059669" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#059669" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <!-- Col 28 - 31 (Jul/Aug/Sep) - Peak activity -->
+        <g transform="translate(351, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#059669" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#059669" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#065f46" />
+        </g>
+        <g transform="translate(364, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#047857" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#10b981" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#059669" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#101a28" />
+        </g>
+        <g transform="translate(377, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#059669" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#059669" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#10b981" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#34d399" />
+        </g>
+        <g transform="translate(390, 0)">
+          <rect x="0" y="0" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="13" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="26" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="39" width="10" height="10" rx="2" fill="#101a28" />
+          <rect x="0" y="52" width="10" height="10" rx="2" fill="#10b981" />
+          <rect x="0" y="65" width="10" height="10" rx="2" fill="#34d399" />
+          <rect x="0" y="78" width="10" height="10" rx="2" fill="#10b981" />
+        </g>
+      </g>
+
+      <!-- Heatmap Footer -->
+      <g transform="translate(24, 132)">
+        <text x="0" y="0" class="cal-footnote">More consistent. More to build.</text>
+
+        <!-- Legend -->
+        <g transform="translate(310, -8)">
+          <text x="0" y="8" class="legend-text">Less</text>
+          <rect x="26" y="0" width="9" height="9" rx="1.5" fill="#101a28" />
+          <rect x="38" y="0" width="9" height="9" rx="1.5" fill="#064e3b" />
+          <rect x="50" y="0" width="9" height="9" rx="1.5" fill="#059669" />
+          <rect x="62" y="0" width="9" height="9" rx="1.5" fill="#10b981" />
+          <rect x="74" y="0" width="9" height="9" rx="1.5" fill="#34d399" />
+          <text x="88" y="8" class="legend-text">More</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT: RECENT ACTIVITY ================= -->
+  <!-- Section Title -->
+  <g transform="translate(604, 16)">
+    <!-- Lightning Bolt Icon -->
+    <path d="M7 1 L1 8 L6 8 L5 14 L11 7 L6 7 Z" fill="#94a3b8" />
+    <text x="18" y="9" class="font-mono header-title">RECENT ACTIVITY</text>
+  </g>
+
+  <!-- Right Card Base (w=300, h=175) -->
+  <g transform="translate(604, 32)">
+    <rect width="300" height="175" rx="8" fill="url(#actCardBg)" stroke="#1a2942" stroke-width="1" />
+
+    <!-- Activity Item 1 -->
+    <g transform="translate(18, 30)">
+      <circle cx="5" cy="0" r="4.5" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+      <circle cx="5" cy="0" r="2" fill="#38bdf8" filter="url(#cyanGlow)" />
+      <text x="18" y="4" class="font-sans activity-text">Pushed to <tspan class="activity-repo">call-shield</tspan></text>
+      <text x="264" y="4" text-anchor="end" class="font-sans activity-date">Sep 4</text>
+    </g>
+
+    <!-- Activity Item 2 -->
+    <g transform="translate(18, 60)">
+      <circle cx="5" cy="0" r="4.5" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+      <circle cx="5" cy="0" r="2" fill="#38bdf8" filter="url(#cyanGlow)" />
+      <text x="18" y="4" class="font-sans activity-text">Pushed to <tspan class="activity-repo">student-performance-...</tspan></text>
+      <text x="264" y="4" text-anchor="end" class="font-sans activity-date">Sep 4</text>
+    </g>
+
+    <!-- Activity Item 3 -->
+    <g transform="translate(18, 90)">
+      <circle cx="5" cy="0" r="4.5" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+      <circle cx="5" cy="0" r="2" fill="#38bdf8" filter="url(#cyanGlow)" />
+      <text x="18" y="4" class="font-sans activity-text">Pushed to <tspan class="activity-repo">face-blockchain-...</tspan></text>
+      <text x="264" y="4" text-anchor="end" class="font-sans activity-date">Sep 3</text>
+    </g>
+
+    <!-- Activity Item 4 -->
+    <g transform="translate(18, 120)">
+      <circle cx="5" cy="0" r="4.5" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+      <circle cx="5" cy="0" r="2" fill="#38bdf8" filter="url(#cyanGlow)" />
+      <text x="18" y="4" class="font-sans activity-text">Pushed to <tspan class="activity-repo">language-to-action-...</tspan></text>
+      <text x="264" y="4" text-anchor="end" class="font-sans activity-date">Sep 3</text>
+    </g>
+
+    <!-- Activity Item 5 -->
+    <g transform="translate(18, 150)">
+      <circle cx="5" cy="0" r="4.5" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+      <circle cx="5" cy="0" r="2" fill="#38bdf8" filter="url(#cyanGlow)" />
+      <text x="18" y="4" class="font-sans activity-text">Pushed to <tspan class="activity-repo">Voiceshield</tspan></text>
+      <text x="264" y="4" text-anchor="end" class="font-sans activity-date">Sep 1</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 248" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gridCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090e18" />
+      <stop offset="100%" stop-color="#0c1322" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .card-title { font-size: 13px; font-weight: 600; fill: #38bdf8; }
+    .card-title-sm { font-size: 11.5px; font-weight: 600; fill: #38bdf8; }
+    .desc { font-size: 11px; fill: #8b9cb5; line-height: 1.4; }
+    .meta-text { font-size: 11px; fill: #8b9cb5; }
+    .badge-text { font-size: 9.5px; fill: #64748b; font-weight: 600; }
+  </style>
+
+  <rect width="920" height="248" fill="#030712" />
+
+  <!-- ================= ROW 1 ================= -->
+
+  <!-- CARD 1: GraphQL-Sentinel (x=16, y=4) -->
+  <g transform="translate(16, 4)">
+    <rect width="288" height="116" rx="8" fill="url(#gridCardBg)" stroke="#1a2942" stroke-width="1" />
+    
+    <!-- Repo Icon -->
+    <g transform="translate(14, 16)">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V.75A2.25 2.25 0 0 0 13.25 0H4.5A4 4 0 0 0 .5 4v10.5A2.5 2.5 0 0 0 3 17h10.25a.75.75 0 0 0 0-1.5H3a1 1 0 0 1-1-1z" fill="#64748b" transform="scale(0.85)" />
+    </g>
+    <text x="32" y="27" class="font-sans card-title">GraphQL-Sentinel</text>
+
+    <!-- Public Badge -->
+    <g transform="translate(150, 16)">
+      <rect width="36" height="15" rx="7.5" fill="#0b1424" stroke="#1c2d49" stroke-width="1" />
+      <text x="18" y="10.5" text-anchor="middle" class="font-sans badge-text">Public</text>
+    </g>
+
+    <!-- Chevron -->
+    <path d="M268 22 L272 26 L268 30" fill="none" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Description -->
+    <text x="14" y="52" class="font-sans desc">GraphQL security and threat detection</text>
+    <text x="14" y="67" class="font-sans desc">system.</text>
+
+    <!-- Footer: Python & Star -->
+    <g transform="translate(14, 98)">
+      <circle cx="4" cy="-3" r="3.5" fill="#38bdf8" />
+      <text x="13" y="0.5" class="font-sans meta-text">Python</text>
+      <g transform="translate(62, -8)">
+        <polygon points="4.5,0 5.8,2.8 9,3.3 6.8,5.4 7.3,8.5 4.5,7.1 1.7,8.5 2.2,5.4 0,3.3 3.2,2.8" fill="none" stroke="#8b9cb5" stroke-width="0.9" />
+        <text x="12" y="7.5" class="font-sans meta-text">1</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 2: language-to-action-robot-agent (x=316, y=4) -->
+  <g transform="translate(316, 4)">
+    <rect width="288" height="116" rx="8" fill="url(#gridCardBg)" stroke="#1a2942" stroke-width="1" />
+    
+    <!-- Repo Icon -->
+    <g transform="translate(14, 16)">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V.75A2.25 2.25 0 0 0 13.25 0H4.5A4 4 0 0 0 .5 4v10.5A2.5 2.5 0 0 0 3 17h10.25a.75.75 0 0 0 0-1.5H3a1 1 0 0 1-1-1z" fill="#64748b" transform="scale(0.85)" />
+    </g>
+    <text x="32" y="27" class="font-sans card-title-sm">language-to-action-robot-agent</text>
+
+    <!-- Public Badge -->
+    <g transform="translate(224, 16)">
+      <rect width="36" height="15" rx="7.5" fill="#0b1424" stroke="#1c2d49" stroke-width="1" />
+      <text x="18" y="10.5" text-anchor="middle" class="font-sans badge-text">Public</text>
+    </g>
+
+    <!-- Chevron -->
+    <path d="M268 22 L272 26 L268 30" fill="none" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Description -->
+    <text x="14" y="52" class="font-sans desc">Agentic AI system that decomposes</text>
+    <text x="14" y="67" class="font-sans desc">natural-language instructions into robot sub-tasks.</text>
+
+    <!-- Footer: Python & Star -->
+    <g transform="translate(14, 98)">
+      <circle cx="4" cy="-3" r="3.5" fill="#38bdf8" />
+      <text x="13" y="0.5" class="font-sans meta-text">Python</text>
+      <g transform="translate(62, -8)">
+        <polygon points="4.5,0 5.8,2.8 9,3.3 6.8,5.4 7.3,8.5 4.5,7.1 1.7,8.5 2.2,5.4 0,3.3 3.2,2.8" fill="none" stroke="#8b9cb5" stroke-width="0.9" />
+        <text x="12" y="7.5" class="font-sans meta-text">1</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 3: deepfake-detection-system (x=616, y=4) -->
+  <g transform="translate(616, 4)">
+    <rect width="288" height="116" rx="8" fill="url(#gridCardBg)" stroke="#1a2942" stroke-width="1" />
+    
+    <!-- Repo Icon -->
+    <g transform="translate(14, 16)">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V.75A2.25 2.25 0 0 0 13.25 0H4.5A4 4 0 0 0 .5 4v10.5A2.5 2.5 0 0 0 3 17h10.25a.75.75 0 0 0 0-1.5H3a1 1 0 0 1-1-1z" fill="#64748b" transform="scale(0.85)" />
+    </g>
+    <text x="32" y="27" class="font-sans card-title-sm">deepfake-detection-system</text>
+
+    <!-- Public Badge -->
+    <g transform="translate(200, 16)">
+      <rect width="36" height="15" rx="7.5" fill="#0b1424" stroke="#1c2d49" stroke-width="1" />
+      <text x="18" y="10.5" text-anchor="middle" class="font-sans badge-text">Public</text>
+    </g>
+
+    <!-- Chevron -->
+    <path d="M268 22 L272 26 L268 30" fill="none" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Description -->
+    <text x="14" y="52" class="font-sans desc">Computer vision based deepfake detection</text>
+    <text x="14" y="67" class="font-sans desc">system using CNN models.</text>
+
+    <!-- Footer: Star -->
+    <g transform="translate(14, 98)">
+      <g transform="translate(0, -8)">
+        <polygon points="4.5,0 5.8,2.8 9,3.3 6.8,5.4 7.3,8.5 4.5,7.1 1.7,8.5 2.2,5.4 0,3.3 3.2,2.8" fill="none" stroke="#8b9cb5" stroke-width="0.9" />
+        <text x="12" y="7.5" class="font-sans meta-text">1</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= ROW 2 ================= -->
+
+  <!-- CARD 4: face-blockchain-verification (x=16, y=128) -->
+  <g transform="translate(16, 128)">
+    <rect width="288" height="116" rx="8" fill="url(#gridCardBg)" stroke="#1a2942" stroke-width="1" />
+    
+    <!-- Repo Icon -->
+    <g transform="translate(14, 16)">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V.75A2.25 2.25 0 0 0 13.25 0H4.5A4 4 0 0 0 .5 4v10.5A2.5 2.5 0 0 0 3 17h10.25a.75.75 0 0 0 0-1.5H3a1 1 0 0 1-1-1z" fill="#64748b" transform="scale(0.85)" />
+    </g>
+    <text x="32" y="27" class="font-sans card-title-sm">face-blockchain-verification</text>
+
+    <!-- Public Badge -->
+    <g transform="translate(204, 16)">
+      <rect width="36" height="15" rx="7.5" fill="#0b1424" stroke="#1c2d49" stroke-width="1" />
+      <text x="18" y="10.5" text-anchor="middle" class="font-sans badge-text">Public</text>
+    </g>
+
+    <!-- Chevron -->
+    <path d="M268 22 L272 26 L268 30" fill="none" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Description -->
+    <text x="14" y="52" class="font-sans desc">Blockchain based face verification</text>
+    <text x="14" y="67" class="font-sans desc">system.</text>
+
+    <!-- Footer: Python & Star -->
+    <g transform="translate(14, 98)">
+      <circle cx="4" cy="-3" r="3.5" fill="#38bdf8" />
+      <text x="13" y="0.5" class="font-sans meta-text">Python</text>
+      <g transform="translate(62, -8)">
+        <polygon points="4.5,0 5.8,2.8 9,3.3 6.8,5.4 7.3,8.5 4.5,7.1 1.7,8.5 2.2,5.4 0,3.3 3.2,2.8" fill="none" stroke="#8b9cb5" stroke-width="0.9" />
+        <text x="12" y="7.5" class="font-sans meta-text">2</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 5: student-performance-prediction-system (x=316, y=128) -->
+  <g transform="translate(316, 128)">
+    <rect width="288" height="116" rx="8" fill="url(#gridCardBg)" stroke="#1a2942" stroke-width="1" />
+    
+    <!-- Repo Icon -->
+    <g transform="translate(14, 16)">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V.75A2.25 2.25 0 0 0 13.25 0H4.5A4 4 0 0 0 .5 4v10.5A2.5 2.5 0 0 0 3 17h10.25a.75.75 0 0 0 0-1.5H3a1 1 0 0 1-1-1z" fill="#64748b" transform="scale(0.85)" />
+    </g>
+    <text x="32" y="27" class="font-sans card-title-sm">student-performance-prediction-system</text>
+
+    <!-- Chevron -->
+    <path d="M268 22 L272 26 L268 30" fill="none" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Description -->
+    <text x="14" y="52" class="font-sans desc">Student performance prediction using ML.</text>
+
+    <!-- Footer: Python -->
+    <g transform="translate(14, 98)">
+      <circle cx="4" cy="-3" r="3.5" fill="#38bdf8" />
+      <text x="13" y="0.5" class="font-sans meta-text">Python</text>
+    </g>
+  </g>
+
+  <!-- CARD 6: VoiceShield (x=616, y=128) -->
+  <g transform="translate(616, 128)">
+    <rect width="288" height="116" rx="8" fill="url(#gridCardBg)" stroke="#1a2942" stroke-width="1" />
+    
+    <!-- Repo Icon -->
+    <g transform="translate(14, 16)">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V.75A2.25 2.25 0 0 0 13.25 0H4.5A4 4 0 0 0 .5 4v10.5A2.5 2.5 0 0 0 3 17h10.25a.75.75 0 0 0 0-1.5H3a1 1 0 0 1-1-1z" fill="#64748b" transform="scale(0.85)" />
+    </g>
+    <text x="32" y="27" class="font-sans card-title">VoiceShield</text>
+
+    <!-- Public Badge -->
+    <g transform="translate(120, 16)">
+      <rect width="36" height="15" rx="7.5" fill="#0b1424" stroke="#1c2d49" stroke-width="1" />
+      <text x="18" y="10.5" text-anchor="middle" class="font-sans badge-text">Public</text>
+    </g>
+
+    <!-- Chevron -->
+    <path d="M268 22 L272 26 L268 30" fill="none" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Description -->
+    <text x="14" y="52" class="font-sans desc">Voice security and analysis tools.</text>
+  </g>
+</svg>
