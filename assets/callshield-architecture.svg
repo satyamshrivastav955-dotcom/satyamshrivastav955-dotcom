@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-label="CallShield pipeline: real-world audio, voice processing, three parallel detectors, signal fusion, risk engine, passive warning critical output">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06090f"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <filter id="cglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .lbl{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c7d5ea;}
+    .sub{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#5b6b86;}
+    .node{fill:#0d1626;stroke:#1f3252;stroke-width:1.2;}
+    .flow{stroke:#264063;stroke-width:2;fill:none;}
+  </style>
+
+  <rect width="900" height="560" fill="url(#cbg)"/>
+  <g stroke="#101c2e" stroke-width="1">
+    <path d="M0 70H900M0 140H900M0 210H900M0 280H900M0 350H900M0 420H900M0 490H900"/>
+  </g>
+
+  <!-- flow connectors -->
+  <g class="flow">
+    <path d="M450 66 V96"/>
+    <path d="M450 150 V180"/>
+    <!-- fan out to 3 detectors -->
+    <path d="M450 234 V250 H190 V270"/>
+    <path d="M450 234 V270"/>
+    <path d="M450 234 V250 H710 V270"/>
+    <!-- fan in to fusion -->
+    <path d="M190 340 V356 H450 V372"/>
+    <path d="M450 340 V372"/>
+    <path d="M710 340 V356 H450 V372"/>
+    <path d="M450 424 V444"/>
+    <path d="M450 486 V506"/>
+  </g>
+
+  <!-- animated signal dots along the spine -->
+  <circle r="3.5" fill="#7dd3fc" filter="url(#cglow)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M450 40 V520"/>
+  </circle>
+
+  <!-- stage 1: audio -->
+  <rect class="node" x="330" y="30" width="240" height="36" rx="7"/>
+  <text class="lbl" x="450" y="53" text-anchor="middle" font-size="14" letter-spacing="2">REAL-WORLD AUDIO</text>
+
+  <!-- stage 2: voice processing -->
+  <rect class="node" x="330" y="114" width="240" height="36" rx="7"/>
+  <text class="lbl" x="450" y="137" text-anchor="middle" font-size="14" letter-spacing="2">VOICE PROCESSING</text>
+
+  <!-- detectors -->
+  <g>
+    <rect class="node" x="70" y="270" width="240" height="70" rx="8" stroke="url(#edge)"/>
+    <text class="lbl" x="190" y="300" text-anchor="middle" font-size="13" letter-spacing="1">SPEAKER</text>
+    <text class="lbl" x="190" y="318" text-anchor="middle" font-size="13" letter-spacing="1">VERIFICATION</text>
+    <text class="sub" x="190" y="334" text-anchor="middle" font-size="10">ecapa_tdnn · 192-D</text>
+  </g>
+  <g>
+    <rect class="node" x="330" y="270" width="240" height="70" rx="8" stroke="url(#edge)"/>
+    <text class="lbl" x="450" y="300" text-anchor="middle" font-size="13" letter-spacing="1">DEEPFAKE</text>
+    <text class="lbl" x="450" y="318" text-anchor="middle" font-size="13" letter-spacing="1">DETECTION</text>
+    <text class="sub" x="450" y="334" text-anchor="middle" font-size="10">spoof_ast · int8</text>
+  </g>
+  <g>
+    <rect class="node" x="590" y="270" width="240" height="70" rx="8" stroke="url(#edge)"/>
+    <text class="lbl" x="710" y="300" text-anchor="middle" font-size="13" letter-spacing="1">CONVERSATION</text>
+    <text class="lbl" x="710" y="318" text-anchor="middle" font-size="13" letter-spacing="1">ANALYSIS</text>
+    <text class="sub" x="710" y="334" text-anchor="middle" font-size="10">intent · urgency</text>
+  </g>
+
+  <!-- fusion -->
+  <rect class="node" x="330" y="372" width="240" height="52" rx="8"/>
+  <text class="lbl" x="450" y="396" text-anchor="middle" font-size="14" letter-spacing="2">SIGNAL FUSION</text>
+  <text class="sub" x="450" y="413" text-anchor="middle" font-size="10">deterministic · combines evidence</text>
+
+  <!-- risk engine -->
+  <rect class="node" x="330" y="450" width="240" height="36" rx="7"/>
+  <text class="lbl" x="450" y="473" text-anchor="middle" font-size="14" letter-spacing="2">RISK ENGINE</text>
+
+  <!-- outputs -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2" text-anchor="middle">
+    <rect x="205" y="506" width="150" height="34" rx="17" fill="#0e1a12" stroke="#1f5136"/>
+    <text x="280" y="528" fill="#4ade80">PASSIVE</text>
+    <rect x="375" y="506" width="150" height="34" rx="17" fill="#1a1608" stroke="#5a4a12"/>
+    <text x="450" y="528" fill="#facc15">WARNING</text>
+    <rect x="545" y="506" width="150" height="34" rx="17" fill="#1a0c0c" stroke="#5a1c1c"/>
+    <text x="620" y="528" fill="#f87171">CRITICAL</text>
+  </g>
+</svg>

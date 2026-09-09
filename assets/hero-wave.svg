@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Signal flowing through a technical grid: input to intelligence to decision">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="1" stop-color="#0a0f1c"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- technical grid -->
+  <g stroke="#16233b" stroke-width="1">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/>
+    <path d="M100 0V300M300 0V300M500 0V300M700 0V300M900 0V300M1100 0V300" stroke="#111c30"/>
+  </g>
+  <g stroke="#0f1a2c" stroke-width="1" opacity="0.6">
+    <path d="M0 30H1200M0 90H1200M0 150H1200M0 210H1200M0 270H1200"/>
+  </g>
+
+  <!-- baseline -->
+  <line x1="40" y1="150" x2="1160" y2="150" stroke="#1d2c47" stroke-width="1"/>
+
+  <!-- static waveform (renders even without animation) -->
+  <path d="M40 150 L180 150 L210 150 Q240 150 255 110 T300 150 Q320 150 335 150 L360 150 L385 150 Q400 150 415 78 Q430 150 445 150 L470 150 L640 150 L665 150 Q685 150 700 120 T745 150 L900 150 Q930 150 945 96 T990 150 L1160 150"
+        fill="none" stroke="url(#signal)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" filter="url(#glow)"/>
+
+  <!-- moving scan pulse -->
+  <g opacity="0.85">
+    <rect x="0" y="0" width="70" height="300" fill="url(#fade)" opacity="0.10">
+      <animate attributeName="x" from="-70" to="1200" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <circle r="4" fill="#7dd3fc" filter="url(#glow)">
+      <animateMotion dur="4.5s" repeatCount="indefinite"
+        path="M40 150 L180 150 L210 150 Q240 150 255 110 T300 150 Q320 150 335 150 L360 150 L385 150 Q400 150 415 78 Q430 150 445 150 L470 150 L640 150 L665 150 Q685 150 700 120 T745 150 L900 150 Q930 150 945 96 T990 150 L1160 150"/>
+    </circle>
+  </g>
+
+  <!-- stage markers -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="3">
+    <text x="120" y="255" fill="#5b6b86">INPUT</text>
+    <text x="545" y="255" fill="#38bdf8" text-anchor="middle">INTELLIGENCE</text>
+    <text x="1085" y="255" fill="#2dd4bf" text-anchor="end">DECISION</text>
+  </g>
+  <g fill="#233553">
+    <circle cx="110" cy="150" r="3.5"/>
+    <circle cx="545" cy="150" r="3.5"/>
+    <circle cx="1090" cy="150" r="3.5"/>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2" fill="#33465f">
+    <text x="40" y="34">// EDGE AI</text>
+    <text x="1160" y="34" text-anchor="end">VOICE SECURITY // ANDROID</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40" role="img" aria-label="Section divider">
+  <defs>
+    <linearGradient id="dl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a0f1c" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#1d2c47"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="0.8" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#0a0f1c" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dg" x="-5%" y="-200%" width="110%" height="500%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#dl)" stroke-width="1.4"/>
+  <circle cy="20" r="3" fill="#7dd3fc" filter="url(#dg)">
+    <animate attributeName="cx" from="120" to="1080" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="#1d2c47">
+    <rect x="596" y="14" width="3" height="12"/>
+    <rect x="602" y="10" width="3" height="20"/>
+    <rect x="608" y="14" width="3" height="12"/>
+  </g>
+</svg>
