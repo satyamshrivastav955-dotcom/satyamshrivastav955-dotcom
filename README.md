@@ -1,166 +1,182 @@
 <div align="center">
 
-<!-- ═══════════════════ HERO HEADER ═══════════════════ -->
-<img src="./assets/header.svg" width="100%" alt="Satyam Santosh Shrivastav — Building Edge AI Systems" />
+<img src="./assets/hero.svg" width="100%" alt="Satyam Santosh Shrivastav — AI and security systems builder" />
 
-<!-- ═══════════════════ CONNECT BAR ═══════════════════ -->
+<br />
+
+<p>
+  <strong>AI &amp; Security Systems Builder</strong><br />
+  <sub>Building practical intelligence for safer, smarter systems.</sub>
+</p>
+
 <a href="https://github.com/satyamshrivastav955-dotcom">
-  <img src="./assets/connect-bar.svg" width="100%" alt="Connect — GitHub · LinkedIn · Email" />
+  <img src="https://img.shields.io/badge/GitHub-Explore_my_work-0b1424?style=for-the-badge&amp;logo=github&amp;logoColor=67e8f9&amp;labelColor=030712" alt="Explore my GitHub work" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/satyam-shrivastav-239557392/">
+  <img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0b1424?style=for-the-badge&amp;logo=linkedin&amp;logoColor=38bdf8&amp;labelColor=030712" alt="Connect on LinkedIn" />
+</a>
+&nbsp;
+<a href="mailto:satyamshrivastav955@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Say_hello-0b1424?style=for-the-badge&amp;logo=gmail&amp;logoColor=f472b6&amp;labelColor=030712" alt="Send an email" />
 </a>
 
-<br/>
+</div>
 
-<!-- ═══════════════════ SOCIAL LINKS ═══════════════════ -->
-[![GitHub followers](https://img.shields.io/github/followers/satyamshrivastav955-dotcom?style=for-the-badge&logo=github&logoColor=2dd4bf&label=Follow&color=030c1a&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-030c1a?style=for-the-badge&logo=linkedin&logoColor=38bdf8&labelColor=0b1a2e)](https://www.linkedin.com/in/satyam-shrivastav-239557392/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-Reach_Out-030c1a?style=for-the-badge&logo=gmail&logoColor=ec4899&labelColor=0b1a2e)](mailto:satyamshrivastav955@gmail.com)
-&nbsp;
-![Profile views](https://komarev.com/ghpvc/?username=satyamshrivastav955-dotcom&style=for-the-badge&color=030c1a&label=PROFILE+VIEWS&base=100)
+<br />
 
-<br/><br/>
+<table align="center">
+  <tr>
+    <td align="center" width="33%"><strong>FOCUS</strong><br /><sub>Edge AI · Trust · Automation</sub></td>
+    <td align="center" width="33%"><strong>BUILDING</strong><br /><sub>Voice security with CallShield</sub></td>
+    <td align="center" width="33%"><strong>APPROACH</strong><br /><sub>Useful systems over hype</sub></td>
+  </tr>
+</table>
 
-<!-- ═══════════════════ NOW BUILDING: CALLSHIELD ═══════════════════ -->
+<br />
+
+## About
+
+I build applied AI systems that connect models to real-world signals, decisions, and outcomes. My work sits at the intersection of **machine learning, security, computer vision, voice intelligence, and intelligent automation**.
+
+- Designing detection and verification systems for high-risk digital interactions
+- Exploring edge inference, multimodal signals, and agentic workflows
+- Turning research ideas into practical prototypes with clear user value
+- Learning in public and open to thoughtful collaboration
+
+<br />
+
 <img src="./assets/sep-teal.svg" width="100%" alt="" />
-<br/>
 
-<a href="https://github.com/satyamshrivastav955-dotcom/call-shield">
-  <img src="./assets/banner-call-shield.png" width="100%" alt="CallShield — Real-time Voice Security for Safer Conversations · Speaker Verification · Deepfake Detection · Conversational Risk Analysis · On-Device Inference" />
-</a>
+## Now building · CallShield
 
-<br/>
+<p align="center">
+  <a href="https://github.com/satyamshrivastav955-dotcom/call-shield">
+    <img src="./assets/banner-call-shield.png" width="100%" alt="CallShield — real-time voice security for safer conversations" />
+  </a>
+</p>
 
-[![View call-shield](https://img.shields.io/badge/⬡_View_Repository-call--shield-030c1a?style=for-the-badge&logo=github&logoColor=2dd4bf&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/call-shield)
-&nbsp;
-[![Python](https://img.shields.io/badge/Python-3.11-030c1a?style=for-the-badge&logo=python&logoColor=2dd4bf&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/call-shield)
-&nbsp;
-[![AI](https://img.shields.io/badge/Edge_AI-On--Device-030c1a?style=for-the-badge&logo=tensorflow&logoColor=2dd4bf&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/call-shield)
-&nbsp;
-[![Status](https://img.shields.io/badge/Status-🔨_Active_Dev-030c1a?style=for-the-badge&labelColor=0b1a2e&color=2dd4bf)](https://github.com/satyamshrivastav955-dotcom/call-shield)
+<table>
+  <tr>
+    <td width="58%" valign="top">
+      <h3>Real-time voice security for safer conversations</h3>
+      <p>CallShield explores how speaker verification, deepfake detection, and conversational risk analysis can work together to identify suspicious calls without getting in the way of normal conversations.</p>
+      <p>
+        <a href="https://github.com/satyamshrivastav955-dotcom/call-shield"><img src="https://img.shields.io/badge/View_repository-2dd4bf?style=flat-square&amp;logo=github&amp;logoColor=030712" alt="View the CallShield repository" /></a>
+        <a href="https://github.com/satyamshrivastav955-dotcom/call-shield"><img src="https://img.shields.io/badge/Python-3.11-0b1424?style=flat-square&amp;logo=python&amp;logoColor=2dd4bf" alt="Python 3.11" /></a>
+        <img src="https://img.shields.io/badge/Edge_AI-On--device-0b1424?style=flat-square&amp;logo=tensorflow&amp;logoColor=38bdf8" alt="On-device edge AI" />
+      </p>
+    </td>
+    <td width="42%" valign="top">
+      <strong>Core signals</strong><br />
+      <sub>Speaker verification<br />Deepfake detection<br />Conversation analysis<br />Evidence fusion<br />Risk-aware outputs</sub>
+      <br /><br />
+      <strong>Status</strong><br />
+      <sub>Active development · prototype to system</sub>
+    </td>
+  </tr>
+</table>
 
-<br/><br/>
+<details>
+  <summary><strong>View the CallShield system map</strong></summary>
+  <br />
+  <p align="center">
+    <img src="./assets/callshield-architecture.svg" width="100%" alt="CallShield architecture: audio processing flows through speaker verification, deepfake detection, and conversation analysis into signal fusion and a risk engine" />
+  </p>
+</details>
 
-<!-- ═══════════════════ SELECTED WORK HEADER ═══════════════════ -->
-<a href="https://github.com/satyamshrivastav955-dotcom?tab=repositories">
-  <img src="./assets/selected-work-header.svg" width="100%" alt="Selected Work — View all repositories" />
-</a>
+<br />
 
-<br/>
-
-<!-- ─────────── 1. GraphQL-Sentinel ─────────── -->
 <img src="./assets/sep-blue.svg" width="100%" alt="" />
-<br/>
 
-<a href="https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel">
-  <img src="./assets/banner-graphql-sentinel.png" width="100%" alt="GraphQL-Sentinel — Security-focused GraphQL Analysis and Protection Tooling · Query Analysis · API Protection · Real-time Scanning" />
-</a>
+## Selected work
 
-<br/>
+<p>Small systems, practical experiments, and security-focused prototypes.</p>
 
-[![View GraphQL-Sentinel](https://img.shields.io/badge/⬡_View_Repository-GraphQL--Sentinel-030c1a?style=for-the-badge&logo=github&logoColor=38bdf8&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel)
-&nbsp;
-[![GraphQL](https://img.shields.io/badge/GraphQL-Security-030c1a?style=for-the-badge&logo=graphql&logoColor=38bdf8&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel)
-&nbsp;
-[![Python](https://img.shields.io/badge/Python-API_Analysis-030c1a?style=for-the-badge&logo=python&logoColor=38bdf8&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel">
+        <img src="./assets/card-graphql-sentinel.svg" width="100%" alt="GraphQL-Sentinel — GraphQL security and threat detection system" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent">
+        <img src="./assets/card-robot-agent.svg" width="100%" alt="Language-to-action robot agent — natural language to robot sub-tasks" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/satyamshrivastav955-dotcom/deepfake-detection-system">
+        <img src="./assets/card-deepfake-detection.svg" width="100%" alt="Deepfake detection system — computer vision based deepfake detection" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/satyamshrivastav955-dotcom/face-blockchain-verification">
+        <img src="./assets/card-face-blockchain.svg" width="100%" alt="Face blockchain verification — blockchain based face verification" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/satyamshrivastav955-dotcom/student-performance-prediction-system">
+        <img src="./assets/card-student-performance.svg" width="100%" alt="Student performance prediction system — machine learning for student performance" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/satyamshrivastav955-dotcom/VoiceShield">
+        <img src="./assets/card-voiceshield.svg" width="100%" alt="VoiceShield — voice security and analysis tools" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-<br/><br/>
+<p align="center">
+  <a href="https://github.com/satyamshrivastav955-dotcom?tab=repositories"><strong>Explore all repositories →</strong></a>
+</p>
 
-<!-- ─────────── 2. language-to-action-robot-agent ─────────── -->
+<br />
+
 <img src="./assets/sep-purple.svg" width="100%" alt="" />
-<br/>
 
-<a href="https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent">
-  <img src="./assets/banner-language-to-action-robot-agent.png" width="100%" alt="language-to-action-robot-agent — From Natural Language to Real-World Action · LLM Planning · MuJoCo Simulation · Goal-Driven Execution" />
-</a>
+## Toolkit
 
-<br/>
+<p align="center">
+  <img src="./assets/tech-stack.svg" width="100%" alt="Technology areas: Python, computer vision, machine learning, AI agents, GraphQL, blockchain, and Android" />
+</p>
 
-[![View robot-agent](https://img.shields.io/badge/⬡_View_Repository-robot--agent-030c1a?style=for-the-badge&logo=github&logoColor=a855f7&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent)
-&nbsp;
-[![LLM](https://img.shields.io/badge/LLM-Planning-030c1a?style=for-the-badge&logo=openai&logoColor=a855f7&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent)
-&nbsp;
-[![Robotics](https://img.shields.io/badge/MuJoCo-Simulation-030c1a?style=for-the-badge&logoColor=a855f7&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-0b1424?style=for-the-badge&amp;logo=python&amp;logoColor=38bdf8" alt="Python" />
+  <img src="https://img.shields.io/badge/Computer_Vision-0b1424?style=for-the-badge&amp;logo=opencv&amp;logoColor=f472b6" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/Machine_Learning-0b1424?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=fbbf24" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/PyTorch-0b1424?style=for-the-badge&amp;logo=pytorch&amp;logoColor=fb7185" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/GraphQL-0b1424?style=for-the-badge&amp;logo=graphql&amp;logoColor=e879f9" alt="GraphQL" />
+  <img src="https://img.shields.io/badge/Android-0b1424?style=for-the-badge&amp;logo=android&amp;logoColor=86efac" alt="Android" />
+</p>
 
-<br/><br/>
+<br />
 
-<!-- ─────────── 3. deepfake-detection-system ─────────── -->
 <img src="./assets/sep-pink.svg" width="100%" alt="" />
-<br/>
 
-<a href="https://github.com/satyamshrivastav955-dotcom/deepfake-detection-system">
-  <img src="./assets/banner-deepfake-detection-system.png" width="100%" alt="deepfake-detection-system — Computer Vision Based Deepfake Detection · Image Analysis · Video Analysis · Deep Learning · Tamper Detection" />
-</a>
+## GitHub signal
 
-<br/>
+<p align="center">
+  <a href="https://github.com/satyamshrivastav955-dotcom">
+    <img src="https://img.shields.io/github/followers/satyamshrivastav955-dotcom?style=for-the-badge&amp;logo=github&amp;logoColor=67e8f9&amp;label=FOLLOWERS&amp;color=0b1424&amp;labelColor=030712" alt="GitHub followers" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=satyamshrivastav955-dotcom&amp;style=for-the-badge&amp;color=0b1424&amp;label=PROFILE+VIEWS" alt="Profile views" />
+</p>
 
-[![View deepfake-detection](https://img.shields.io/badge/⬡_View_Repository-deepfake--detection-030c1a?style=for-the-badge&logo=github&logoColor=ec4899&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/deepfake-detection-system)
-&nbsp;
-[![CV](https://img.shields.io/badge/Computer_Vision-Deep_Learning-030c1a?style=for-the-badge&logo=opencv&logoColor=ec4899&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/deepfake-detection-system)
-&nbsp;
-[![PyTorch](https://img.shields.io/badge/PyTorch-Inference-030c1a?style=for-the-badge&logo=pytorch&logoColor=ec4899&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/deepfake-detection-system)
+<p align="center"><sub>The live contribution graph below this README is the source of truth for activity.</sub></p>
 
-<br/><br/>
+<br />
 
-<!-- ─────────── 4. face-blockchain-verification ─────────── -->
-<img src="./assets/sep-gold.svg" width="100%" alt="" />
-<br/>
-
-<a href="https://github.com/satyamshrivastav955-dotcom/face-blockchain-verification">
-  <img src="./assets/banner-face-blockchain-verification.png" width="100%" alt="face-blockchain-verification — Biometric Verification for a More Secure Digital World · Face Recognition · Blockchain Storage · Tamper-Proof Records" />
-</a>
-
-<br/>
-
-[![View face-blockchain](https://img.shields.io/badge/⬡_View_Repository-face--blockchain-030c1a?style=for-the-badge&logo=github&logoColor=eab308&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/face-blockchain-verification)
-&nbsp;
-[![Blockchain](https://img.shields.io/badge/Blockchain-Identity-030c1a?style=for-the-badge&logo=ethereum&logoColor=eab308&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/face-blockchain-verification)
-&nbsp;
-[![Biometrics](https://img.shields.io/badge/Face_Recognition-Biometrics-030c1a?style=for-the-badge&logoColor=eab308&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/face-blockchain-verification)
-
-<br/><br/>
-
-<!-- ─────────── 5. student-performance-prediction-system ─────────── -->
-<img src="./assets/sep-green.svg" width="100%" alt="" />
-<br/>
-
-<a href="https://github.com/satyamshrivastav955-dotcom/student-performance-prediction-system">
-  <img src="./assets/banner-student-performance-prediction.png" width="100%" alt="student-performance-prediction-system — Data-driven Insights for Better Learning Outcomes · Performance Prediction · At-Risk Identification" />
-</a>
-
-<br/>
-
-[![View student-prediction](https://img.shields.io/badge/⬡_View_Repository-student--prediction-030c1a?style=for-the-badge&logo=github&logoColor=10b981&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/student-performance-prediction-system)
-&nbsp;
-[![ML](https://img.shields.io/badge/Machine_Learning-Scikit--Learn-030c1a?style=for-the-badge&logo=scikitlearn&logoColor=10b981&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/student-performance-prediction-system)
-&nbsp;
-[![Data](https://img.shields.io/badge/Data_Science-Pandas-030c1a?style=for-the-badge&logo=pandas&logoColor=10b981&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom/student-performance-prediction-system)
-
-<br/><br/>
-
-<!-- ═══════════════════ TECH STACK ═══════════════════ -->
-<img src="./assets/sep-teal.svg" width="100%" alt="" />
-<br/><br/>
-
-<img src="./assets/tech-stack.svg" width="100%" alt="Tech Stack — Python · CV · ML · AI Agents · GraphQL · Blockchain · Android" />
-
-<br/><br/>
-
-<!-- ═══════════════════ FOOTER ═══════════════════ -->
-<a href="https://github.com/satyamshrivastav955-dotcom">
-  <img src="./assets/footer.svg" width="100%" alt="satyamshrivastav955-dotcom — Open source for a safer, smarter world" />
-</a>
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-satyamshrivastav955--dotcom-030c1a?style=flat-square&logo=github&logoColor=2dd4bf&labelColor=0b1a2e)](https://github.com/satyamshrivastav955-dotcom)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Satyam_Shrivastav-030c1a?style=flat-square&logo=linkedin&logoColor=38bdf8&labelColor=0b1a2e)](https://www.linkedin.com/in/satyam-shrivastav-239557392/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-satyamshrivastav955%40gmail.com-030c1a?style=flat-square&logo=gmail&logoColor=ec4899&labelColor=0b1a2e)](mailto:satyamshrivastav955@gmail.com)
-
-<br/>
-
-<sub><i>"Better systems for a safer tomorrow."</i> — Satyam Santosh Shrivastav</sub>
-
+<div align="center">
+  <a href="https://github.com/satyamshrivastav955-dotcom">
+    <img src="./assets/footer.svg" width="100%" alt="Satyam Santosh Shrivastav — open source for a safer, smarter world" />
+  </a>
+  <br />
+  <sub><i>“Build useful systems. Keep learning. Leave things safer than you found them.”</i></sub>
 </div>
