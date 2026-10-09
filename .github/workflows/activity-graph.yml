@@ -1,0 +1,40 @@
+name: Update Activity Graph
+
+# Renders a self-hosted contribution calendar SVG into profile/activity.svg.
+# Uses the public contributions endpoint, so no PAT is required.
+
+on:
+  schedule:
+    - cron: "20 3 * * *"   # daily, offset from the stats-card job
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render contribution calendar
+        run: python scripts/render_activity.py
+
+      - name: Commit and push activity graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/activity.svg
+          git diff --staged --quiet || git commit -m "chore: update activity graph [skip ci]"
+          git push
