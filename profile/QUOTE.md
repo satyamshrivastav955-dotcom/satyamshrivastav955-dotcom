@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> The system is only as good as the evidence behind its decision.
+> Verify the physical result. Do not trust the plan's description of success.
 
-_Last updated: seeding commit_
+_Last updated: 2026-10-09 20:07:38 UTC (2026-10-10 01:37:38 IST)_
