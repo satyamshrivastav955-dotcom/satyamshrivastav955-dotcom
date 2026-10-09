@@ -82,4 +82,12 @@ jobs:
             exit 0
           fi
           git commit -m "chore: hourly heartbeat + rotated dev quote [skip ci]"
-          git push
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            echo "push rejected (concurrent commit), retry $i..."
+            git rebase --abort || true
+            sleep $((RANDOM % 10 + 5))
+          done
+          exit 1

@@ -40,5 +40,17 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add profile/stats.svg profile/top-langs.svg
-          git diff --staged --quiet || git commit -m "chore: update README stats cards [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update README stats cards [skip ci]"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            echo "push rejected (concurrent commit), retry $i..."
+            git rebase --abort || true
+            sleep $((RANDOM % 10 + 5))
+          done
+          exit 1
