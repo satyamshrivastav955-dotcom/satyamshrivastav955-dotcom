@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> A model that cannot be inspected is a model that cannot be trusted.
+> Make it work, make it right, make it fast. — Kent Beck
 
-_Last updated: 2026-10-10 00:42:24 UTC (2026-10-10 06:12:24 IST)_
+_Last updated: 2026-10-10 05:07:29 UTC (2026-10-10 10:37:29 IST)_
