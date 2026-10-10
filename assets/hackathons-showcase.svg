@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 310" width="100%" height="100%" role="img" aria-label="Hackathons &amp; Competitive Victories - Satyam Shrivastav">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070c17" />
+      <stop offset="45%" stop-color="#0c1424" />
+      <stop offset="100%" stop-color="#060912" />
+    </linearGradient>
+    <linearGradient id="goldGlowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="1" />
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="goldBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0" />
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="cardGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141712" />
+      <stop offset="100%" stop-color="#0e131c" />
+    </linearGradient>
+    <linearGradient id="cardCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081824" />
+      <stop offset="100%" stop-color="#0a121e" />
+    </linearGradient>
+    <filter id="trophyGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="pillGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, Monaco, monospace; }
+    .header-tag { font-size: 11px; font-weight: 700; fill: #fbbf24; letter-spacing: 2px; }
+    .header-title { font-size: 21px; font-weight: 750; fill: #f8fafc; letter-spacing: -0.3px; }
+    .header-sub { font-size: 12.5px; fill: #94a3b8; }
+    .card-title { font-size: 14.5px; font-weight: 700; fill: #f1f5f9; letter-spacing: -0.2px; }
+    .card-meta { font-size: 11.5px; fill: #8b9cb5; }
+    .card-date { font-size: 10.5px; fill: #64748b; font-weight: 500; }
+    .prize-badge-text { font-size: 10.5px; font-weight: 750; fill: #fde047; letter-spacing: 0.5px; }
+    .cyan-badge-text { font-size: 10px; font-weight: 700; fill: #38bdf8; letter-spacing: 0.5px; }
+    .purple-badge-text { font-size: 10px; font-weight: 700; fill: #c084fc; letter-spacing: 0.5px; }
+
+    @keyframes pulseTrophy {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.08); opacity: 0.85; }
+    }
+    .pulse-t {
+      animation: pulseTrophy 2.6s ease-in-out infinite;
+      transform-origin: 32px 36px;
+    }
+    @keyframes beamFlow {
+      0% { transform: translateX(-240px); }
+      100% { transform: translateX(960px); }
+    }
+    .beam {
+      animation: beamFlow 5s linear infinite;
+    }
+    @keyframes prizePulse {
+      0%, 100% { stroke-opacity: 0.8; }
+      50% { stroke-opacity: 0.3; }
+    }
+    .gold-border-pulse {
+      animation: prizePulse 2.2s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Container Base -->
+  <rect x="2" y="2" width="916" height="306" rx="14" fill="url(#bgGrad)" stroke="#22334d" stroke-width="1.3" />
+
+  <!-- Subtle Technical Grid Lines -->
+  <g stroke="#122035" stroke-width="0.8" opacity="0.3">
+    <path d="M0 64 H920 M0 182 H920" />
+    <path d="M460 64 V310" />
+  </g>
+
+  <!-- Animated Top Beam -->
+  <g opacity="0.7">
+    <rect x="0" y="2" width="220" height="2" fill="url(#goldBeam)" class="beam" />
+  </g>
+
+  <!-- Header Section -->
+  <g transform="translate(24, 20)">
+    <!-- Animated Trophy Icon -->
+    <g class="pulse-t">
+      <circle cx="20" cy="18" r="18" fill="#1f1809" stroke="#b45309" stroke-width="1.2" />
+      <text x="20" y="24" text-anchor="middle" font-size="18" filter="url(#trophyGlow)">🏆</text>
+    </g>
+
+    <g transform="translate(52, 6)">
+      <text x="0" y="0" class="font-mono header-tag">HONORS &amp; COMPETITIVE WINS</text>
+      <text x="0" y="22" class="font-sans header-title">Hackathon Victories &amp; National Finalist Standings</text>
+      <text x="0" y="38" class="font-sans header-sub">2x First Place National Champion · ₹29,000+ Prize Pool · Verified Credentials</text>
+    </g>
+
+    <!-- Header Right Live Badge -->
+    <g transform="translate(710, 8)">
+      <rect width="162" height="26" rx="13" fill="#1c1607" stroke="#b45309" stroke-width="1" />
+      <circle cx="14" cy="13" r="4" fill="#fbbf24" filter="url(#pillGlow)" />
+      <text x="26" y="17" class="font-mono" font-size="10.5" font-weight="700" fill="#fde047">NATIONAL 1ST PRIZE</text>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="24" y1="74" x2="896" y2="74" stroke="#172840" stroke-width="1" />
+
+  <!-- ================= 4 HACKATHON CARDS GRID ================= -->
+
+  <!-- CARD 1: CIH '26 (Featured 1st Prize ₹25k) -->
+  <g transform="translate(24, 88)">
+    <rect width="426" height="96" rx="10" fill="url(#cardGold)" stroke="#d97706" stroke-width="1.3" class="gold-border-pulse" />
+    
+    <!-- Accent Left Gold Bar -->
+    <rect x="0" y="0" width="5" height="96" rx="2" fill="url(#goldGlowGrad)" />
+
+    <!-- Card Content -->
+    <g transform="translate(18, 16)">
+      <text x="0" y="10" font-size="16">🥇</text>
+      <text x="24" y="10" class="font-sans card-title">CIH '26 — Coimbatore Innovation Hackathon</text>
+      
+      <!-- Prize Pill -->
+      <g transform="translate(0, 22)">
+        <rect width="158" height="20" rx="10" fill="#291a03" stroke="#f59e0b" stroke-width="1" />
+        <text x="79" y="14" text-anchor="middle" class="font-mono prize-badge-text">FIRST PRIZE · ₹25,000</text>
+      </g>
+      <g transform="translate(166, 22)">
+        <rect width="90" height="20" rx="10" fill="#0c1d2e" stroke="#0e7490" stroke-width="0.8" />
+        <text x="45" y="14" text-anchor="middle" class="font-mono cyan-badge-text">VERIFIED (4)</text>
+      </g>
+
+      <text x="0" y="58" class="font-sans card-meta">National Level Hardware &amp; AI Innovation Challenge</text>
+      <text x="0" y="70" class="font-mono card-date">4 Aug 2026 · Certificate Verified · National Rank 1</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: Ikigai 2026 (1st Prize ₹4k) -->
+  <g transform="translate(470, 88)">
+    <rect width="426" height="96" rx="10" fill="url(#cardGold)" stroke="#b45309" stroke-width="1.2" />
+    
+    <!-- Accent Left Amber Bar -->
+    <rect x="0" y="0" width="5" height="96" rx="2" fill="#f59e0b" />
+
+    <g transform="translate(18, 16)">
+      <text x="0" y="10" font-size="16">🥇</text>
+      <text x="24" y="10" class="font-sans card-title">Ikigai 2026 National Hackathon</text>
+      
+      <!-- Prize Pill -->
+      <g transform="translate(0, 22)">
+        <rect width="146" height="20" rx="10" fill="#291a03" stroke="#f59e0b" stroke-width="1" />
+        <text x="73" y="14" text-anchor="middle" class="font-mono prize-badge-text">FIRST PRIZE · ₹4,000</text>
+      </g>
+      <g transform="translate(154, 22)">
+        <rect width="78" height="20" rx="10" fill="#0c1d2e" stroke="#0e7490" stroke-width="0.8" />
+        <text x="39" y="14" text-anchor="middle" class="font-mono cyan-badge-text">VERIFIED</text>
+      </g>
+
+      <text x="0" y="58" class="font-sans card-meta">Flagship Problem-Solving &amp; AI Systems Sprint</text>
+      <text x="0" y="70" class="font-mono card-date">22 Aug 2026 · Certificate Verified · National Rank 1</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: ISRO Hackathon -->
+  <g transform="translate(24, 196)">
+    <rect width="426" height="96" rx="10" fill="url(#cardCyan)" stroke="#0e7490" stroke-width="1" />
+    
+    <!-- Accent Left Cyan Bar -->
+    <rect x="0" y="0" width="5" height="96" rx="2" fill="#22d3ee" />
+
+    <g transform="translate(18, 16)">
+      <text x="0" y="10" font-size="16">🛰️</text>
+      <text x="24" y="10" class="font-sans card-title">ISRO National Space Hackathon</text>
+      
+      <!-- Pill -->
+      <g transform="translate(0, 22)">
+        <rect width="156" height="20" rx="10" fill="#072030" stroke="#06b6d4" stroke-width="1" />
+        <text x="78" y="14" text-anchor="middle" class="font-mono cyan-badge-text">NATIONAL PARTICIPATION</text>
+      </g>
+      <g transform="translate(164, 22)">
+        <rect width="78" height="20" rx="10" fill="#051c14" stroke="#15803d" stroke-width="0.8" />
+        <text x="39" y="14" text-anchor="middle" class="font-mono" font-size="10" font-weight="700" fill="#4ade80">ISRO VERIFIED</text>
+      </g>
+
+      <text x="0" y="58" class="font-sans card-meta">Space Technology, Geospatial &amp; Real-time AI Analytics</text>
+      <text x="0" y="70" class="font-mono card-date">20 Aug 2026 · National Level · Certificate Verified</text>
+    </g>
+  </g>
+
+  <!-- CARD 4: Vicodathon 2026 (AI Vibe Coding) -->
+  <g transform="translate(470, 196)">
+    <rect width="426" height="96" rx="10" fill="url(#cardCyan)" stroke="#6366f1" stroke-width="1" />
+    
+    <!-- Accent Left Purple Bar -->
+    <rect x="0" y="0" width="5" height="96" rx="2" fill="#a855f7" />
+
+    <g transform="translate(18, 16)">
+      <text x="0" y="10" font-size="16">⚡</text>
+      <text x="24" y="10" class="font-sans card-title">Vicodathon 2026 — AI Vibe Coding</text>
+      
+      <!-- Pill -->
+      <g transform="translate(0, 22)">
+        <rect width="168" height="20" rx="10" fill="#1e1438" stroke="#a855f7" stroke-width="1" />
+        <text x="84" y="14" text-anchor="middle" class="font-mono purple-badge-text">INDIA'S AI VIBE HACKATHON</text>
+      </g>
+      <g transform="translate(176, 22)">
+        <rect width="78" height="20" rx="10" fill="#0b172a" stroke="#334155" stroke-width="0.8" />
+        <text x="39" y="14" text-anchor="middle" class="font-mono" font-size="10" font-weight="700" fill="#94a3b8">NATIONAL</text>
+      </g>
+
+      <text x="0" y="58" class="font-sans card-meta">Autonomous AI Agents, Rapid Prototyping &amp; LLM Workflows</text>
+      <text x="0" y="70" class="font-mono card-date">14 Aug 2026 · National Level · Verified Entry</text>
+    </g>
+  </g>
+
+</svg>

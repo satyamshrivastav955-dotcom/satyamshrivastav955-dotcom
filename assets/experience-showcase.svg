@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 160" width="100%" height="100%" role="img" aria-label="Applied Experience &amp; Professional Roles - Satyam Shrivastav">
+  <defs>
+    <linearGradient id="expBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b16" />
+      <stop offset="50%" stop-color="#091322" />
+      <stop offset="100%" stop-color="#060914" />
+    </linearGradient>
+    <linearGradient id="expCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b172a" />
+      <stop offset="100%" stop-color="#08101f" />
+    </linearGradient>
+    <linearGradient id="greenBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0" />
+      <stop offset="50%" stop-color="#34d399" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, Monaco, monospace; }
+    .hdr-tag { font-size: 10.5px; font-weight: 700; fill: #34d399; letter-spacing: 2px; }
+    .hdr-title { font-size: 17px; font-weight: 750; fill: #f8fafc; }
+    .role-title { font-size: 13px; font-weight: 700; fill: #f1f5f9; }
+    .org-title { font-size: 12px; font-weight: 600; fill: #38bdf8; }
+    .desc-text { font-size: 11px; fill: #8b9cb5; }
+    .date-text { font-size: 10px; fill: #64748b; font-weight: 500; }
+    @keyframes beamFlowExp {
+      0% { transform: translateX(-240px); }
+      100% { transform: translateX(960px); }
+    }
+    .beam-exp {
+      animation: beamFlowExp 5s linear infinite;
+    }
+  </style>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="916" height="156" rx="12" fill="url(#expBg)" stroke="#1a2d47" stroke-width="1.2" />
+
+  <!-- Animated Top Beam -->
+  <g opacity="0.7">
+    <rect x="0" y="2" width="200" height="2" fill="url(#greenBeam)" class="beam-exp" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(24, 18)">
+    <text x="0" y="0" class="font-mono hdr-tag">INDUSTRY ROLES &amp; PROFESSIONAL CERTIFICATIONS</text>
+    <text x="0" y="18" class="font-sans hdr-title">Applied Machine Learning Engineering &amp; Cloud Infrastructure</text>
+  </g>
+
+  <!-- 3 Experience Cards Grid -->
+  <g transform="translate(24, 52)">
+    
+    <!-- CARD 1: Softron -->
+    <g transform="translate(0, 0)">
+      <rect width="280" height="92" rx="8" fill="url(#expCardGrad)" stroke="#15803d" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="92" rx="2" fill="#34d399" />
+      <g transform="translate(14, 14)">
+        <text x="0" y="8" font-size="14">💼</text>
+        <text x="22" y="8" class="font-sans role-title">ML Engineer Intern</text>
+        <text x="0" y="28" class="font-sans org-title">Softron, Kolhapur</text>
+        <text x="0" y="46" class="font-sans desc-text">Applied ML models &amp; computer vision pipelines</text>
+        <text x="0" y="62" class="font-mono date-text">10 Jun 2026 · Industry Internship · Verified</text>
+      </g>
+    </g>
+
+    <!-- CARD 2: SkillOrbit -->
+    <g transform="translate(294, 0)">
+      <rect width="280" height="92" rx="8" fill="url(#expCardGrad)" stroke="#0e7490" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="92" rx="2" fill="#22d3ee" />
+      <g transform="translate(14, 14)">
+        <text x="0" y="8" font-size="14">💼</text>
+        <text x="22" y="8" class="font-sans role-title">ML Engineering Team</text>
+        <text x="0" y="28" class="font-sans org-title">SkillOrbit</text>
+        <text x="0" y="46" class="font-sans desc-text">Deep learning architectures &amp; ML systems</text>
+        <text x="0" y="62" class="font-mono date-text">1 Jul 2026 · Engineering Team Intern · Verified</text>
+      </g>
+    </g>
+
+    <!-- CARD 3: AWS Cloud & Fintech -->
+    <g transform="translate(588, 0)">
+      <rect width="284" height="92" rx="8" fill="url(#expCardGrad)" stroke="#854d0e" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="92" rx="2" fill="#fbbf24" />
+      <g transform="translate(14, 14)">
+        <text x="0" y="8" font-size="14">☁️</text>
+        <text x="22" y="8" class="font-sans role-title">AWS Cloud Consultant</text>
+        <text x="0" y="28" class="font-sans org-title">Coursera &amp; AWS</text>
+        <text x="0" y="46" class="font-sans desc-text">Cloud Technology &amp; Fintech Innovations</text>
+        <text x="0" y="62" class="font-mono date-text">4 Oct 2026 · Certified Professional Consultant</text>
+      </g>
+    </g>
+
+  </g>
+</svg>

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=850&lines=AI+%26+Security+Systems+Builder+%F0%9F%A7%A0;Edge+AI+%7C+Computer+Vision+%7C+Cybersecurity+%7C+Robotics+%7C+XAI;Python+%7C+PyTorch+%7C+FastAPI+%7C+LangGraph+%7C+MuJoCo;Building+useful+systems.+Verifying+the+outcome." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=850&lines=AI+%26+Security+Systems+Architect+%F0%9F%A7%A0;2x+National+Hackathon+1st+Prize+Winner+%F0%9F%8F%86;4x+Peer-Reviewed+Publications+(NASA+%2B+GraphQL+AI)+%F0%9F%93%9A;Edge+AI+%7C+Computer+Vision+%7C+Cybersecurity+%7C+Robotics;Building+useful+systems.+Verifying+the+outcome." alt="Typing SVG" />
 
 <br/>
 
@@ -15,14 +15,16 @@
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 👨‍💻 About Me
 
-I build **AI systems, security tools, and full-stack products** that connect intelligent reasoning with practical software engineering — spanning computer vision, efficient multimodal inference, cybersecurity, robotics simulation, explainable ML, and workflow automation. Every project tells a technical story: **the problem, the system I designed, the engineering decisions behind it, and the evidence that shows what works.**
+I build **AI systems, security architectures, and full-stack products** that connect intelligent reasoning with practical software engineering — spanning computer vision, efficient multimodal inference, cybersecurity, robotics simulation, explainable ML, and workflow automation. Every project tells a technical story: **the problem, the system I designed, the engineering decisions behind it, and the empirical evidence that proves what works.**
 
 <p align="center">
-  <img src="./assets/about-terminal.svg" width="100%" alt="Terminal card: whoami Satyam Santosh Shrivastav, mission, focus areas, currently building ARGUS" />
+  <img src="./assets/about-terminal.svg" width="100%" alt="Terminal HUD: whoami Satyam Santosh Shrivastav, mission, focus areas, currently building ARGUS" />
 </p>
 
 <p align="center">
@@ -33,58 +35,233 @@ I build **AI systems, security tools, and full-stack products** that connect int
   <img src="https://img.shields.io/badge/Learning-Efficient_multimodal_inference-0b1424?style=flat-square&logoColor=22d3ee" alt="Learning efficient multimodal inference" />
 </p>
 
-```ts
-const satyam: Developer = {
-  name: "Satyam Santosh Shrivastav",
-  location: "India 🇮🇳",
-  role: "AI & Security Systems Builder",
-  mission: "Engineering intelligent systems for real-world problems.",
+### ⚡ Architectural Specialization & Core Pillars
 
-  whatIBuild: [
-    "Edge AI video intelligence — detection, tracking, pose events, VLM reasoning (ARGUS)",
-    "Multimodal scam & impersonation defense across voice, video, and text (CallShield)",
-    "Runtime GraphQL security gateway with explainable policy decisions (GraphQL-Sentinel)",
-    "Hybrid intrusion detection with decision-level model fusion + drift monitoring (Hybrid AI NIDS)",
-    "Closed-loop language-to-action robot agents in physics simulation (NEXUS-1)",
-    "Verifiable image provenance with canonical evidence + blockchain anchoring",
-    "Role-aware delivery workspaces and explainable academic ML (TaskOrbit, SPI)",
-  ],
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>👁️ Edge AI &amp; Multimodal Perception</h4>
+      <ul>
+        <li><b>Offline Video Intelligence:</b> YOLO-family detection, ByteTrack tracking, and pose event triggers running on constrained local hardware (<a href="https://github.com/satyamshrivastav955-dotcom/ai-surveillance">ARGUS</a>).</li>
+        <li><b>Efficient VLMs:</b> Quantized Qwen2.5-VL inference with visual token pruning and KV-cache optimization (<a href="https://github.com/satyamshrivastav955-dotcom/argus-vlm-optimization">argus-vlm-optimization</a>).</li>
+        <li><b>Multimodal Reasoning:</b> Llama-Vision OCR receipt extraction &amp; document intelligence (<a href="https://drive.google.com/file/d/1A-WLiySdA7d8sr7Dt-2lvzNYS8FxyJZa/view?usp=drivesdk">ICAST Paper</a>).</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛡️ Runtime Security &amp; Threat Defense</h4>
+      <ul>
+        <li><b>Scam &amp; Impersonation Defense:</b> Synthetic-voice detection, speaker verification, and LangGraph multi-agent risk fusion (<a href="https://github.com/satyamshrivastav955-dotcom/call-shield">CallShield</a>).</li>
+        <li><b>GraphQL API Security:</b> AST query complexity inspection and nested DoS prevention (<a href="https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel">GraphQL-Sentinel</a>, <a href="https://drive.google.com/file/d/1HHzw4yg203f52CLRhzghn-iNG5n5Hgp1/view?usp=drivesdk">ICNGCIS25 Paper</a>).</li>
+        <li><b>Adaptive NIDS:</b> Four-model ensemble (Autoencoder, Isolation Forest, LSTM, Random Forest) on CICIDS2017 (<a href="https://github.com/satyamshrivastav955-dotcom/hybrid-ai-nids">Hybrid AI NIDS</a>).</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 Embodied Robotics &amp; Control</h4>
+      <ul>
+        <li><b>Closed-Loop Action:</b> Local LLM instruction decomposition into manipulation primitives (<a href="https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent">NEXUS-1</a>).</li>
+        <li><b>Physics Simulation:</b> 6-DOF robotic arm trajectory control in MuJoCo using Damped Least-Squares (DLS) Inverse Kinematics.</li>
+        <li><b>Ground-Truth Verification:</b> Measured position error feedback loops ensuring real mechanical execution.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔗 Verifiable Provenance &amp; Applied ML</h4>
+      <ul>
+        <li><b>Cryptographic Anchoring:</b> Facial feature extraction (YuNet/SFace), RFC 8785 canonical JSON hashing, and Base Sepolia smart contract anchoring (<a href="https://github.com/satyamshrivastav955-dotcom/face-blockchain-verification">Face Blockchain</a>).</li>
+        <li><b>Explainable Decision Support:</b> TreeSHAP feature attributions and DiCE counterfactuals with Fairlearn auditing (<a href="https://github.com/satyamshrivastav955-dotcom/student-performance-prediction-system">Student Intelligence</a>).</li>
+        <li><b>Space Analytics:</b> Real-time telemetry &amp; NEO tracking via NASA APIs (<a href="https://drive.google.com/file/d/1UCG-AVRCVX-AOmXhCsDqAuGT0EToVZ4q/view?usp=drivesdk">Published Journal Paper</a>).</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-  techStack: {
-    languages: ["Python", "TypeScript", "Java", "C++", "Kotlin", "Bash"],
-    ai_ml:     ["PyTorch", "TensorFlow", "scikit-learn", "OpenCV", "LangGraph"],
-    backend:   ["FastAPI", "Flask", "Node.js", "GraphQL", "WebSockets"],
-    frontend:  ["React", "Next.js", "Vite", "Tailwind CSS", "Android"],
-    data:      ["PostgreSQL", "SQLite", "Redis", "Firebase", "MongoDB"],
-    security:  ["Deepfake Detection", "Speaker Verification", "API Threat Modeling", "Blockchain Anchoring"],
-    devops:    ["Docker", "Linux", "GitHub Actions", "GCP"],
-  },
+> 💡 **Engineering Mindset:** *"Verify the outcome before trusting the model. Measure latency, quantize inference, benchmark on constrained hardware, and deliver verifiable evidence."*
 
-  currentlyLearning: [
-    "Efficient multimodal inference — token pruning & quantized KV cache",
-    "Agentic workflows and conditional orchestration with LangGraph",
-    "Verifiable computation and tamper-evident evidence design",
-  ],
+| 🔭 Current Flagship | 🌱 Research Focus | 🏆 Competitive Track Record | 💼 Experience |
+|:-------------------:|:-----------------:|:--------------------------:|:-------------:|
+| **ARGUS** (Offline Video AI) | Quantized VLM Token Pruning | **2x National 1st Prize** (CIH '26 ₹25k, Ikigai '26) | ML Engineer @ Softron &amp; SkillOrbit |
 
-  openTo: [
-    "AI/ML & security engineering collaborations",
-    "Open-source contributions",
-    "Internship / full-time roles in applied AI",
-  ],
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
-  contact: {
-    linkedin: "satyam-shrivastav-239557392",
-    leetcode: "Satyam12Leet",
-    email: "satyamshrivastav955@gmail.com",
-  },
-};
-```
+## 🏆 Honors & Hackathon Victories
 
-| 🔭 Currently Building | 🌱 Currently Learning | 💬 Ask Me About | ⚡ Fun Fact |
-|:--------------------:|:--------------------:|:---------------:|:----------:|
-| ARGUS — offline video intelligence | Efficient multimodal inference | Computer vision, API security, applied ML | I verify the outcome before I trust the model |
+> National championship titles, cash awards, and competitive AI hackathon standings.
 
----
+<p align="center">
+  <img src="./assets/hackathons-showcase.svg" width="100%" alt="Hackathons & Competitive Victories Showcase" />
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🥇 CIH '26 — Coimbatore Innovation Hackathon</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Standing-First_Prize-f59e0b?style=flat-square&logo=trophy&logoColor=black" alt="First Prize" />
+        <img src="https://img.shields.io/badge/Award-₹25%2C000_Cash-fbbf24?style=flat-square" alt="Award: ₹25,000" />
+        <img src="https://img.shields.io/badge/Level-National_Verified-0b1424?style=flat-square&logo=checkmarx&logoColor=22d3ee" alt="National Verified" />
+      </p>
+      <b>National Innovation Championship</b> — Awarded 1st Prize out of nationwide engineering teams for innovative hardware &amp; AI architecture. Verified across 4 credential records.
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/1KW87fImSL8dOjaUJ3tnHc7Kyc8yd2RjC/view?usp=drivesdk">
+        <img src="https://img.shields.io/badge/Verified_Certificate-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View CIH 26 Certificate" />
+      </a>
+      &nbsp;<sub><i>4 Aug 2026</i></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🥇 Ikigai 2026 National Hackathon</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Standing-First_Prize-f59e0b?style=flat-square&logo=trophy&logoColor=black" alt="First Prize" />
+        <img src="https://img.shields.io/badge/Award-₹4%2C000_Cash-fbbf24?style=flat-square" alt="Award: ₹4,000" />
+        <img src="https://img.shields.io/badge/Level-National_Verified-0b1424?style=flat-square&logo=checkmarx&logoColor=22d3ee" alt="National Verified" />
+      </p>
+      <b>First Place Winner</b> — Rapid systems prototyping, machine learning model integration, and algorithmic problem-solving under competitive constraints.
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/1kkbnJ9a_QX_yv_RIxcPlnHo5NdlzvIFh/view?usp=drivesdk">
+        <img src="https://img.shields.io/badge/Verified_Certificate-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View Ikigai Certificate" />
+      </a>
+      &nbsp;<sub><i>22 Aug 2026</i></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛰️ ISRO National Space Hackathon</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Standing-National_Finalist-38bdf8?style=flat-square&logo=spacex&logoColor=white" alt="National Finalist" />
+        <img src="https://img.shields.io/badge/Host-ISRO_National-0b1424?style=flat-square&logoColor=22d3ee" alt="ISRO" />
+        <img src="https://img.shields.io/badge/Status-Verified-0b1424?style=flat-square&logo=checkmarx&logoColor=34d399" alt="Verified" />
+      </p>
+      <b>Space Tech &amp; AI Geospatial Analytics</b> — High-stakes national hackathon organized around space telemetry data, Earth observation analytics, and intelligent systems processing.
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/1eT8dYOiQXQpE1k18L4o27QT0RDdXfowy/view?usp=drivesdk">
+        <img src="https://img.shields.io/badge/Verified_Certificate-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View ISRO Certificate" />
+      </a>
+      &nbsp;<sub><i>20 Aug 2026</i></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ Vicodathon 2026 — AI Vibe Coding</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Standing-National_Participant-a855f7?style=flat-square&logo=githubactions&logoColor=white" alt="National Participant" />
+        <img src="https://img.shields.io/badge/Domain-Agentic_AI_Coding-0b1424?style=flat-square&logoColor=c084fc" alt="AI Vibe Coding" />
+      </p>
+      <b>India's Premier AI Vibe Coding Hackathon</b> — Building next-generation autonomous developer workflows, multi-agent pipelines, and rapid AI product prototyping.
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/16KtNEjSGa-_6sa3wxCtL9bOuOhI6gUF_/view?usp=drivesdk">
+        <img src="https://img.shields.io/badge/Verified_Credential-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View Vicodathon Credential" />
+      </a>
+      &nbsp;<sub><i>14 Aug 2026</i></sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub><b>Additional National Competitions:</b>
+    <a href="https://drive.google.com/file/d/1BuB1R4h0bGT10-hZjUG3HTgmNrQdNmpH/view?usp=drivesdk">ET AI Hackathon (Verified)</a> &bull;
+    <a href="https://drive.google.com/file/d/1wnBBS0csNmgErU8fvhxzcZLhb9mfUzfB/view?usp=drivesdk">StudAI Hackathon (Verified)</a> &bull;
+    <a href="https://drive.google.com/file/d/1_dsa2roFZOKkklzkFmsisiSkdqACwhjJ/view?usp=drivesdk">InnovaHack 2026 (Verified)</a>
+  </sub>
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
+
+## 📜 Peer-Reviewed Research Publications
+
+> 1 International Journal &bull; 3 International Conference Publications &bull; Verified Scientific Contributions.
+
+<p align="center">
+  <img src="./assets/publications-showcase.svg" width="100%" alt="Peer-Reviewed Publications Showcase" />
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🪐 NASA Missions Dashboard: Real-Time Space Analytics</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Type-International_Journal-38bdf8?style=flat-square" alt="International Journal" />
+        <img src="https://img.shields.io/badge/Status-Verified_Publication-22c55e?style=flat-square&logo=checkmarx&logoColor=white" alt="Verified Publication" />
+      </p>
+      <b>Journal of Computer Science Engineering and Software Testing</b><br/>
+      <i>A Real-Time Space Analytics and Visualization System Using Streamlit and NASA APIs.</i> High-throughput live telemetry, Near-Earth Object trajectory tracking, and interactive space exploration intelligence.
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/1UCG-AVRCVX-AOmXhCsDqAuGT0EToVZ4q/view?usp=drivesdk">
+        <img src="https://img.shields.io/badge/Read_Paper_/_Proof-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View NASA Paper" />
+      </a>
+      &nbsp;<sub><i>10 Feb 2026</i></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ Real-Time Hybrid AI for GraphQL API Anomaly Detection</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Type-International_Conference-2dd4bf?style=flat-square" alt="International Conference" />
+        <img src="https://img.shields.io/badge/Status-Verified_Publication-22c55e?style=flat-square&logo=checkmarx&logoColor=white" alt="Verified Publication" />
+      </p>
+      <b>3rd International Conference on Next Generation Computing &amp; Information Systems (ICNGCIS25)</b><br/>
+      <i>Real-Time Hybrid AI Framework for Anomaly Detection in GraphQL APIs under Nested-Query Attacks.</i> Deep query AST decomposition, depth-cost threat modeling, and hybrid anomaly classification (underpins <a href="https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel">GraphQL-Sentinel</a>).
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/1HHzw4yg203f52CLRhzghn-iNG5n5Hgp1/view?usp=drivesdk">
+        <img src="https://img.shields.io/badge/Read_Paper_/_Proof-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View GraphQL Paper" />
+      </a>
+      &nbsp;<sub><i>7 Dec 2025</i></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏥 MediSmart: Intelligent Symptom &amp; Medication Management</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Type-International_Conference-34d399?style=flat-square" alt="International Conference" />
+        <img src="https://img.shields.io/badge/Status-Verified_Publication-22c55e?style=flat-square&logo=checkmarx&logoColor=white" alt="Verified Publication" />
+      </p>
+      <b>International Conference on Emerging Technologies for Multidisciplinary Innovation and Sustainability (ICETMIS25)</b><br/>
+      <i>Intelligent Symptom and Medication Management via Mobile and Web Platform.</i> Clinical decision support, cross-interaction contraindication analysis, and reactive health assistance.
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/1v-jaZ8d4oVey-okqdeLjXFkMbgsP6hMc/view?usp=drivesdk">
+        <img src="https://img.shields.io/badge/Read_Paper_/_Proof-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View MediSmart Paper" />
+      </a>
+      &nbsp;<sub><i>4 Dec 2025</i></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>👁️ Personal Finance Tracker via OCR &amp; Llama Vision</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Type-International_Conference-c084fc?style=flat-square" alt="International Conference" />
+        <img src="https://img.shields.io/badge/Domain-Multimodal_VLM-0b1424?style=flat-square&logoColor=c084fc" alt="Multimodal VLM" />
+      </p>
+      <b>7th International Conference on Advances in Science and Technology (ICAST-2024)</b><br/>
+      <i>Personal Finance Tracker using Optical Character Recognition with Llama Vision.</i> Multimodal visual token parsing for zero-shot transaction categorization and expense reasoning.
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/1A-WLiySdA7d8sr7Dt-2lvzNYS8FxyJZa/view?usp=drivesdk">
+        <img src="https://img.shields.io/badge/Read_Paper_/_Proof-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View Llama Vision Paper" />
+      </a>
+      &nbsp;<sub><i>20 Jun 2025</i></sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
+
+## 💼 Applied Industry Experience & Credentials
+
+> Real-world engineering internships, model deployments, and certified cloud competencies.
+
+<p align="center">
+  <img src="./assets/experience-showcase.svg" width="100%" alt="Applied Industry Experience Showcase" />
+</p>
+
+| Organization | Role | Focus Areas | Verification |
+|:------------|:-----|:------------|:------------:|
+| **Softron, Kolhapur** | **ML Engineer Intern** | Production ML pipelines, computer vision inference, model serving | [Certificate ↗](https://drive.google.com/file/d/1hVqqxFKyz78kqeRAUqONeqq7_xRw_KJU/view?usp=drivesdk) |
+| **SkillOrbit** | **ML Engineering Team Intern** | Deep learning architectures, model training &amp; systems engineering | [Certificate ↗](https://drive.google.com/file/d/13XaB0prLLaKA5wOFmGm0JNPkOV1Gc7Mb/view?usp=drivesdk) |
+| **Coursera &amp; AWS** | **AWS Cloud Technology Consultant** | Cloud infrastructure, microservices, AWS architectural best practices | [Credential ↗](https://drive.google.com/file/d/1tNOxzJV-CIR7rDxigZ8g3LmJj1oA4nD0/view?usp=drivesdk) |
+| **Coursera** | **Fintech Innovations Consultant** | Financial technology innovations, algorithmic pipelines &amp; fraud mitigation | [Credential ↗](https://drive.google.com/file/d/1yUuuT_VlAogilsSrhRqEZpdhsgIOkQ4n/view?usp=drivesdk) |
+| **SkillOrbit** | **Machine Learning Specialization** | Applied ML algorithms, evaluation metrics &amp; pipeline deployment | [Credential ↗](https://drive.google.com/file/d/17hN_neLrXRqwfIPHAnCHWnbJ1y4DcpXh/view?usp=drivesdk) |
+
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 🚀 Flagship Build — ARGUS · Offline AI Video Intelligence
 
@@ -105,7 +282,9 @@ const satyam: Developer = {
 ![PyTorch](https://img.shields.io/badge/PyTorch-Quantized_VLM-0b1424?style=flat-square&logo=pytorch&logoColor=ff6b6b)
 ![Status](https://img.shields.io/badge/Status-Active_Dev-0b1424?style=flat-square&color=22d3ee)
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 🛠️ Featured Engineering Work
 
@@ -121,7 +300,7 @@ Eight systems across perception, inference, security decisions, control, provena
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel"><img src="./assets/proj-graphql-sentinel.svg" width="100%" alt="GraphQL-Sentinel — runtime GraphQL security gateway" /></a>
-      <sub><b>Explainable API defense</b> — operation-level query analysis, configurable security policies, risk aggregation, and a React dashboard so a blocked request always communicates <i>which</i> characteristics drove the decision.</sub>
+      <sub><b>Explainable API defense</b> — operation-level query analysis, configurable security policies, risk aggregation, and a React dashboard so a blocked request always communicates <i>which</i> characteristics drove the decision. Backed by <a href="https://drive.google.com/file/d/1HHzw4yg203f52CLRhzghn-iNG5n5Hgp1/view?usp=drivesdk">ICNGCIS25 Paper</a>.</sub>
       <br/><br/>
       <a href="https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel"><img src="https://img.shields.io/badge/Repo-GraphQL--Sentinel-a855f7?style=flat-square&logo=github&logoColor=0b1424" alt="GraphQL-Sentinel repository" /></a>
     </td>
@@ -173,7 +352,9 @@ Eight systems across perception, inference, security decisions, control, provena
   </tr>
 </table>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 📌 Live Repository Stats
 
@@ -201,7 +382,9 @@ Eight systems across perception, inference, security decisions, control, provena
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 📊 GitHub Stats — At a Glance
 
@@ -225,7 +408,9 @@ Eight systems across perception, inference, security decisions, control, provena
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 📈 Contribution Activity Graph
 
@@ -237,7 +422,9 @@ Eight systems across perception, inference, security decisions, control, provena
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 🐍 Watch My Contributions Get Eaten
 
@@ -247,7 +434,9 @@ Eight systems across perception, inference, security decisions, control, provena
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 🔬 Detailed Profile Breakdown
 
@@ -269,7 +458,9 @@ Eight systems across perception, inference, security decisions, control, provena
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 🏆 GitHub Trophies
 
@@ -279,7 +470,9 @@ Eight systems across perception, inference, security decisions, control, provena
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 🧰 Tech Stack
 
@@ -311,7 +504,9 @@ Eight systems across perception, inference, security decisions, control, provena
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 💡 Dev Quote of the Day
 
@@ -321,7 +516,9 @@ Eight systems across perception, inference, security decisions, control, provena
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 📫 Connect With Me
 
