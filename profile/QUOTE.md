@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Make it work, make it right, make it fast. — Kent Beck
+> Perception without reasoning is noise. Reasoning without perception is fiction.
 
-_Last updated: 2026-10-10 05:07:29 UTC (2026-10-10 10:37:29 IST)_
+_Last updated: 2026-10-10 05:11:27 UTC (2026-10-10 10:41:27 IST)_
