@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Code is like humor. When you have to explain it, it's bad. — Cory House
+> Perception without reasoning is noise. Reasoning without perception is fiction.
 
-_Last updated: 2026-10-10 17:41:03 UTC (2026-10-10 23:11:03 IST)_
+_Last updated: 2026-10-10 21:18:37 UTC (2026-10-11 02:48:37 IST)_
