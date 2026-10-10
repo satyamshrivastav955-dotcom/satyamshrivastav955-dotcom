@@ -21,6 +21,18 @@
 
 I build **AI systems, security tools, and full-stack products** that connect intelligent reasoning with practical software engineering — spanning computer vision, efficient multimodal inference, cybersecurity, robotics simulation, explainable ML, and workflow automation. Every project tells a technical story: **the problem, the system I designed, the engineering decisions behind it, and the evidence that shows what works.**
 
+<p align="center">
+  <img src="./assets/about-terminal.svg" width="100%" alt="Terminal card: whoami Satyam Santosh Shrivastav, mission, focus areas, currently building ARGUS" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Edge_AI-22d3ee?style=flat-square&logoColor=0b1424" alt="Focus: Edge AI" />
+  <img src="https://img.shields.io/badge/Field-Computer_Vision-0b1424?style=flat-square&logo=opencv&logoColor=22d3ee" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/Field-Cybersecurity-0b1424?style=flat-square&logoColor=22d3ee" alt="Cybersecurity" />
+  <img src="https://img.shields.io/badge/Building-ARGUS_offline_video_intelligence-0b1424?style=flat-square&logoColor=22d3ee" alt="Building ARGUS" />
+  <img src="https://img.shields.io/badge/Learning-Efficient_multimodal_inference-0b1424?style=flat-square&logoColor=22d3ee" alt="Learning efficient multimodal inference" />
+</p>
+
 ```ts
 const satyam: Developer = {
   name: "Satyam Santosh Shrivastav",
