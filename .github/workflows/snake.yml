@@ -1,15 +1,11 @@
 name: Generate Snake Animation
 
 on:
-  # Run automatically every 12 hours
+  # Run automatically once daily; the animation does not need hourly churn.
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 4 * * *"
   # Allow manual runs from the Actions tab
   workflow_dispatch:
-  # Run on every push to main
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write

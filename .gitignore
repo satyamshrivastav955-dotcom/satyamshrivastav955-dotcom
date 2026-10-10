@@ -1,3 +1,7 @@
 # Preview and temporary scratch files
 preview*.html
 *.tmp
+
+# Python bytecode created by local validation
+__pycache__/
+*.py[cod]
