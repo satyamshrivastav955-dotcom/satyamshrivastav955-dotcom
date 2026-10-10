@@ -1,11 +1,15 @@
-<img width="100%" src="./assets/header.svg" alt="Satyam Santosh Shrivastav — building edge AI systems for voice security, fraud defense, and intelligent automation" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1424,40:082028,100:0e7490&height=160&section=header&text=Satyam%20Shrivastav&fontSize=46&fontColor=22d3ee&fontAlignY=62&animation=fadeIn&desc=Engineering%20intelligent%20systems%20for%20real-world%20problems&descAlignY=82&descSize=16&descColor=67e8f9" />
 
 <div align="center">
 
-<strong>AI &amp; Security Systems Builder</strong> · Edge AI · Computer Vision · Cybersecurity · Robotics
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=850&lines=AI+%26+Security+Systems+Builder+%F0%9F%A7%A0;Edge+AI+%7C+Computer+Vision+%7C+Cybersecurity+%7C+Robotics+%7C+XAI;Python+%7C+PyTorch+%7C+FastAPI+%7C+LangGraph+%7C+MuJoCo;Building+useful+systems.+Verifying+the+outcome." alt="Typing SVG" />
 
 <br/>
 
+[![Profile Views](https://komarev.com/ghpvc/?username=satyamshrivastav955-dotcom&label=Profile+Views&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom)
+[![GitHub followers](https://img.shields.io/github/followers/satyamshrivastav955-dotcom?label=Followers&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom?tab=followers)
+[![Repo count](https://img.shields.io/github/repo-count/satyamshrivastav955-dotcom?label=Repos&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom?tab=repositories)
+[![GitHub stars](https://img.shields.io/github/stars/satyamshrivastav955-dotcom?label=Total+Stars&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Satyam12Leet-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/Satyam12Leet/)
 [![Open to Work](https://img.shields.io/badge/Open+to-Collaborate-22d3ee?style=flat-square&logo=github)](mailto:satyamshrivastav955@gmail.com)
 
@@ -68,10 +72,6 @@ const satyam: Developer = {
 |:--------------------:|:--------------------:|:---------------:|:----------:|
 | ARGUS — offline video intelligence | Efficient multimodal inference | Computer vision, API security, applied ML | I verify the outcome before I trust the model |
 
-<a href="https://github.com/satyamshrivastav955-dotcom/call-shield">
-  <img src="./assets/now-building.svg" width="100%" alt="Now building: CallShield, a real-time AI voice authenticity and social-engineering defense platform" />
-</a>
-
 ---
 
 ## 🚀 Flagship Build — ARGUS · Offline AI Video Intelligence
@@ -97,7 +97,7 @@ const satyam: Developer = {
 
 ## 🛠️ Featured Engineering Work
 
-Seven systems across perception, inference, security decisions, control, provenance, workflows, and explainable prediction.
+Eight systems across perception, inference, security decisions, control, provenance, workflows, and explainable prediction.
 
 <table>
   <tr>
@@ -163,28 +163,37 @@ Seven systems across perception, inference, security decisions, control, provena
 
 ---
 
-## 🧪 Proof of Work
+## 📌 Live Repository Stats
 
-The interesting part of an AI system is the engineering constraint it survives. These are the design choices I use to turn model output into a dependable product.
+> Real pin cards with live stars, forks, and language breakdown — no placeholders.
 
-| System | Architecture / models | Runtime signal | Engineering constraint |
-|:---|:---|:---|:---|
-| [ARGUS](https://github.com/satyamshrivastav955-dotcom/ai-surveillance) | YOLO-family detection + ByteTrack + Qwen2.5-VL | Real-time structured video events | Offline-first perception and alerting |
-| [CallShield](https://github.com/satyamshrivastav955-dotcom/call-shield) | Speaker verification + spoof detection + LangGraph | Evidence-fused call risk | Explainable decisions across multiple signals |
-| [NEXUS-1](https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent) | Local LLM + Damped Least-Squares IK + MuJoCo | Closed-loop manipulation | Retry from measured error, not plan text |
-| [GraphQL-Sentinel](https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel) | AST query analysis + policy engine | Operation-level gateway decision | Every block carries an explainable reason |
+<div align="center">
 
-<details>
-  <summary><b>Open the CallShield architecture deep dive</b> — audio to explainable risk</summary>
-  <br/>
-  <img src="./assets/callshield-architecture.svg" width="100%" alt="CallShield architecture: audio processing fans out to speaker verification, deepfake detection, conversation analysis, signal fusion, and a risk engine" />
-</details>
+<a href="https://github.com/satyamshrivastav955-dotcom/ai-surveillance">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=satyamshrivastav955-dotcom&repo=ai-surveillance&hide_border=true&theme=transparent&title_color=22d3ee&icon_color=22d3ee&text_color=e2e8f0&bg_color=0b1424" height="165" alt="ai-surveillance pin" />
+</a>
+&nbsp;
+<a href="https://github.com/satyamshrivastav955-dotcom/call-shield">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=satyamshrivastav955-dotcom&repo=call-shield&hide_border=true&theme=transparent&title_color=22d3ee&icon_color=22d3ee&text_color=e2e8f0&bg_color=0b1424" height="165" alt="call-shield pin" />
+</a>
+
+<br/>
+
+<a href="https://github.com/satyamshrivastav955-dotcom/hybrid-ai-nids">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=satyamshrivastav955-dotcom&repo=hybrid-ai-nids&hide_border=true&theme=transparent&title_color=22d3ee&icon_color=22d3ee&text_color=e2e8f0&bg_color=0b1424" height="165" alt="hybrid-ai-nids pin" />
+</a>
+&nbsp;
+<a href="https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=satyamshrivastav955-dotcom&repo=language-to-action-robot-agent&hide_border=true&theme=transparent&title_color=22d3ee&icon_color=22d3ee&text_color=e2e8f0&bg_color=0b1424" height="165" alt="language-to-action-robot-agent pin" />
+</a>
+
+</div>
 
 ---
 
 ## 📊 GitHub Stats — At a Glance
 
-> ✅ Served from the repository — refreshed daily by GitHub Actions, so page views do not depend on a live card service.
+> ✅ Self-hosted via GitHub Actions — refreshed daily, never hits rate limits.
 
 <div align="center">
 
@@ -195,6 +204,12 @@ The interesting part of an AI system is the engineering constraint it survives. 
 <img src="./profile/stats.svg" height="190" alt="GitHub Stats" />
 &nbsp;
 <img src="./profile/top-langs.svg" height="190" alt="Top Languages" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=satyamshrivastav955-dotcom&theme=github-dark-blue&hide_border=true&background=0b1424&ring=22d3ee&fire=ff6c00&currStreakNum=ffffff&currStreakLabel=22d3ee&sideNums=ffffff&sideLabels=22d3ee&dates=888888&stroke=22d3ee" height="190" alt="GitHub Streak" />
+&nbsp;
+<img src="https://leetcard.jacoblin.cool/Satyam12Leet?theme=dark&font=JetBrains+Mono&ext=activity&border=0&bg=0b1424&title_color=22d3ee&text_color=e2e8f0" height="190" alt="LeetCode Stats — Satyam12Leet" />
 
 </div>
 
@@ -222,11 +237,65 @@ The interesting part of an AI system is the engineering constraint it survives. 
 
 ---
 
+## 🔬 Detailed Profile Breakdown
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=satyamshrivastav955-dotcom&theme=github_dark" width="96%" alt="Profile Summary" />
+
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=satyamshrivastav955-dotcom&theme=github_dark" height="175" alt="Repos Per Language" />
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=satyamshrivastav955-dotcom&theme=github_dark" height="175" alt="Most Commit Language" />
+
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=satyamshrivastav955-dotcom&theme=github_dark" height="175" alt="Stats Card" />
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=satyamshrivastav955-dotcom&theme=github_dark&utcOffset=5.5" height="175" alt="Productive Time IST" />
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-trophies.vercel.app/?username=satyamshrivastav955-dotcom&theme=onedark&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7&title=MultiLanguage,Commits,Repositories,Stars,Followers,PullRequest,Issues" width="96%" alt="GitHub Trophies" />
+
+</div>
+
+---
+
 ## 🧰 Tech Stack
 
 <div align="center">
 
-<img src="./assets/tech-stack.svg" width="100%" alt="Tech stack: Python, computer vision, machine learning, AI agents, GraphQL, blockchain, and Android" />
+**⚡ Languages**
+
+<img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,cpp,kotlin,bash&theme=dark" />
+
+**🤖 AI / ML / Computer Vision**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" />
+
+**🔧 Backend & APIs**
+
+<img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,express,graphql,spring&theme=dark" />
+
+**🎨 Frontend & Mobile**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,androidstudio&theme=dark" />
+
+**🗄️ Data & Storage**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,redis,firebase&theme=dark" />
+
+**⚙️ DevOps, Cloud & Web3**
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,ubuntu,git,github,nginx,gcp,aws,solidity,postman,vscode&theme=dark" />
 
 </div>
 
@@ -236,9 +305,7 @@ The interesting part of an AI system is the engineering constraint it survives. 
 
 <div align="center">
 
-<img src="./profile/quote.svg" width="100%" alt="Daily engineering quote" />
-
-<sub>Curated locally and refreshed daily by <a href="./profile/QUOTE.md">the profile workflow</a>.</sub>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=onedark" alt="Dev Quote" />
 
 </div>
 
@@ -248,16 +315,14 @@ The interesting part of an AI system is the engineering constraint it survives. 
 
 <div align="center">
 
-<img src="./assets/connect-bar.svg" width="100%" alt="Connect with Satyam Shrivastav on GitHub, LinkedIn, or email" />
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-satyam--shrivastav-22d3ee?style=flat-square&logo=linkedin&logoColor=0b1424)](https://www.linkedin.com/in/satyam-shrivastav-239557392/)
-[![GitHub](https://img.shields.io/badge/GitHub-satyamshrivastav955--dotcom-22d3ee?style=flat-square&logo=github&logoColor=0b1424)](https://github.com/satyamshrivastav955-dotcom)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Satyam12Leet-22d3ee?style=flat-square&logo=leetcode&logoColor=0b1424)](https://leetcode.com/u/Satyam12Leet/)
-[![Email](https://img.shields.io/badge/Email-satyamshrivastav955%40gmail.com-22d3ee?style=flat-square&logo=gmail&logoColor=0b1424)](mailto:satyamshrivastav955@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-satyam--shrivastav-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satyam-shrivastav-239557392/)
+[![GitHub](https://img.shields.io/badge/GitHub-satyamshrivastav955--dotcom-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/satyamshrivastav955-dotcom)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Satyam12Leet-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Satyam12Leet/)
+[![Gmail](https://img.shields.io/badge/Gmail-satyamshrivastav955@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:satyamshrivastav955@gmail.com)
 
 <br/>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="100%" alt="Footer GIF" />
 
 <br/>
 
@@ -265,4 +330,4 @@ The interesting part of an AI system is the engineering constraint it survives. 
 
 </div>
 
-<img width="100%" src="./assets/footer.svg" alt="Open source for a safer, smarter world" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,60:082028,100:0b1424&height=110&section=footer&animation=fadeIn" />

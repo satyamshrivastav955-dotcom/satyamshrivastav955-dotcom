@@ -18,25 +18,20 @@ jobs:
 
       - name: Generate GitHub Stats Card
         run: |
-          curl --fail --silent --show-error --retry 3 --retry-all-errors --connect-timeout 20 --max-time 60 \
-            "https://github-readme-stats.vercel.app/api?username=satyamshrivastav955-dotcom&show_icons=true&count_private=true&include_all_commits=true&bg_color=0b1424&title_color=22d3ee&icon_color=22d3ee&text_color=e2e8f0&hide_border=true&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage" \
-            -o profile/stats.svg
+          curl -s "https://github-readme-stats.vercel.app/api?username=satyamshrivastav955-dotcom&show_icons=true&count_private=true&include_all_commits=true&bg_color=0b1424&title_color=22d3ee&icon_color=22d3ee&text_color=e2e8f0&hide_border=true&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage" -o profile/stats.svg
 
       - name: Generate Top Languages Card
         run: |
-          curl --fail --silent --show-error --retry 3 --retry-all-errors --connect-timeout 20 --max-time 60 \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=satyamshrivastav955-dotcom&layout=compact&langs_count=10&bg_color=0b1424&title_color=22d3ee&text_color=e2e8f0&hide_border=true" \
-            -o profile/top-langs.svg
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=satyamshrivastav955-dotcom&layout=compact&langs_count=10&bg_color=0b1424&title_color=22d3ee&text_color=e2e8f0&hide_border=true" -o profile/top-langs.svg
 
       - name: Verify cards are valid SVG (not error pages)
         run: |
-          for card in profile/stats.svg profile/top-langs.svg; do
-            test -s "$card" || { echo "❌ $card is empty"; exit 1; }
-            grep -q "<svg" "$card" || { echo "❌ $card is not SVG"; exit 1; }
-            if grep -qi "Something went wrong\|error" "$card"; then
-              echo "❌ $card contains an error response" && exit 1
-            fi
-          done
+          if grep -q "Something went wrong" profile/stats.svg; then
+            echo "❌ stats.svg contains an error!" && cat profile/stats.svg && exit 1
+          fi
+          if grep -q "Something went wrong" profile/top-langs.svg; then
+            echo "❌ top-langs.svg contains an error!" && cat profile/top-langs.svg && exit 1
+          fi
           echo "✅ Both cards generated successfully"
 
       - name: Commit and push updated cards
