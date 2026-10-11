@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Make it work, make it right, make it fast. — Kent Beck
+> Ship small. Ship often. Ship verified.
 
-_Last updated: 2026-10-11 10:20:04 UTC (2026-10-11 15:50:04 IST)_
+_Last updated: 2026-10-11 10:32:56 UTC (2026-10-11 16:02:56 IST)_
