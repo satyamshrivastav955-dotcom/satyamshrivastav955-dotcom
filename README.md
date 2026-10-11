@@ -1,17 +1,17 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1424,40:082028,100:0e7490&height=160&section=header&text=Satyam%20Shrivastav&fontSize=46&fontColor=22d3ee&fontAlignY=62&animation=fadeIn&desc=Engineering%20intelligent%20systems%20for%20real-world%20problems&descAlignY=82&descSize=16&descColor=67e8f9" />
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=850&lines=AI+%26+Security+Systems+Architect+%F0%9F%A7%A0;2x+National+Hackathon+1st+Prize+Winner+%F0%9F%8F%86;4x+Peer-Reviewed+Publications+(NASA+%2B+GraphQL+AI)+%F0%9F%93%9A;Edge+AI+%7C+Computer+Vision+%7C+Cybersecurity+%7C+Robotics;Building+useful+systems.+Verifying+the+outcome." alt="Typing SVG" />
+# Satyam Shrivastav
 
-<br/>
+**AI & Security Systems Architect** — Edge AI · Computer Vision · Cybersecurity · Robotics
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-satyamshrivastav955.com-22d3ee?style=flat-square&logo=vercel&logoColor=0b1424)](https://satyamshrivastav955.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-satyam--shrivastav-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satyam-shrivastav-239557392/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Satyam12Leet-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/Satyam12Leet/)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=satyamshrivastav955-dotcom&label=Profile+Views&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom)
 [![GitHub followers](https://img.shields.io/github/followers/satyamshrivastav955-dotcom?label=Followers&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom?tab=followers)
 [![Repo count](https://img.shields.io/github/repo-count/satyamshrivastav955-dotcom?label=Repos&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom?tab=repositories)
 [![GitHub stars](https://img.shields.io/github/stars/satyamshrivastav955-dotcom?label=Total+Stars&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Satyam12Leet-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/Satyam12Leet/)
-[![Open to Work](https://img.shields.io/badge/Open+to-Collaborate-22d3ee?style=flat-square&logo=github)](mailto:satyamshrivastav955@gmail.com)
 
 </div>
 
@@ -35,52 +35,9 @@ I build **AI systems, security architectures, and full-stack products** that con
   <img src="https://img.shields.io/badge/Learning-Efficient_multimodal_inference-0b1424?style=flat-square&logoColor=22d3ee" alt="Learning efficient multimodal inference" />
 </p>
 
-### ⚡ Architectural Specialization & Core Pillars
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>👁️ Edge AI &amp; Multimodal Perception</h4>
-      <ul>
-        <li><b>Offline Video Intelligence:</b> YOLO-family detection, ByteTrack tracking, and pose event triggers running on constrained local hardware (<a href="https://github.com/satyamshrivastav955-dotcom/ai-surveillance">ARGUS</a>).</li>
-        <li><b>Efficient VLMs:</b> Quantized Qwen2.5-VL inference with visual token pruning and KV-cache optimization (<a href="https://github.com/satyamshrivastav955-dotcom/argus-vlm-optimization">argus-vlm-optimization</a>).</li>
-        <li><b>Multimodal Reasoning:</b> Llama-Vision OCR receipt extraction &amp; document intelligence (<a href="https://drive.google.com/file/d/1A-WLiySdA7d8sr7Dt-2lvzNYS8FxyJZa/view?usp=drivesdk">ICAST Paper</a>).</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛡️ Runtime Security &amp; Threat Defense</h4>
-      <ul>
-        <li><b>Scam &amp; Impersonation Defense:</b> Synthetic-voice detection, speaker verification, and LangGraph multi-agent risk fusion (<a href="https://github.com/satyamshrivastav955-dotcom/call-shield">CallShield</a>).</li>
-        <li><b>GraphQL API Security:</b> AST query complexity inspection and nested DoS prevention (<a href="https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel">GraphQL-Sentinel</a>, <a href="https://drive.google.com/file/d/1HHzw4yg203f52CLRhzghn-iNG5n5Hgp1/view?usp=drivesdk">ICNGCIS25 Paper</a>).</li>
-        <li><b>Adaptive NIDS:</b> Four-model ensemble (Autoencoder, Isolation Forest, LSTM, Random Forest) on CICIDS2017 (<a href="https://github.com/satyamshrivastav955-dotcom/hybrid-ai-nids">Hybrid AI NIDS</a>).</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🤖 Embodied Robotics &amp; Control</h4>
-      <ul>
-        <li><b>Closed-Loop Action:</b> Local LLM instruction decomposition into manipulation primitives (<a href="https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent">NEXUS-1</a>).</li>
-        <li><b>Physics Simulation:</b> 6-DOF robotic arm trajectory control in MuJoCo using Damped Least-Squares (DLS) Inverse Kinematics.</li>
-        <li><b>Ground-Truth Verification:</b> Measured position error feedback loops ensuring real mechanical execution.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🔗 Verifiable Provenance &amp; Applied ML</h4>
-      <ul>
-        <li><b>Cryptographic Anchoring:</b> Facial feature extraction (YuNet/SFace), RFC 8785 canonical JSON hashing, and Base Sepolia smart contract anchoring (<a href="https://github.com/satyamshrivastav955-dotcom/face-blockchain-verification">Face Blockchain</a>).</li>
-        <li><b>Explainable Decision Support:</b> TreeSHAP feature attributions and DiCE counterfactuals with Fairlearn auditing (<a href="https://github.com/satyamshrivastav955-dotcom/student-performance-prediction-system">Student Intelligence</a>).</li>
-        <li><b>Space Analytics:</b> Real-time telemetry &amp; NEO tracking via NASA APIs (<a href="https://drive.google.com/file/d/1UCG-AVRCVX-AOmXhCsDqAuGT0EToVZ4q/view?usp=drivesdk">Published Journal Paper</a>).</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-> 💡 **Engineering Mindset:** *"Verify the outcome before trusting the model. Measure latency, quantize inference, benchmark on constrained hardware, and deliver verifiable evidence."*
-
-| 🔭 Current Flagship | 🌱 Research Focus | 🏆 Competitive Track Record | 💼 Experience |
-|:-------------------:|:-----------------:|:--------------------------:|:-------------:|
-| **ARGUS** (Offline Video AI) | Quantized VLM Token Pruning | **2x National 1st Prize** (CIH '26 ₹25k, Ikigai '26) | ML Engineer @ Softron &amp; SkillOrbit |
+| 🔭 Flagship | 🌱 Research Focus | 🏆 Wins | 💼 Experience |
+|:-----------:|:-----------------:|:-------:|:-------------:|
+| **ARGUS** (Offline Video AI) | Quantized VLM Token Pruning | **2× National 1st Prize** | ML Engineer @ Softron & SkillOrbit |
 
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
