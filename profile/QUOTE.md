@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Programs must be written for people to read. — Harold Abelson
+> Offline-first means the system still works when the network does not.
 
-_Last updated: 2026-10-11 06:54:02 UTC (2026-10-11 12:24:02 IST)_
+_Last updated: 2026-10-11 10:03:36 UTC (2026-10-11 15:33:36 IST)_
