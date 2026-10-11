@@ -1,12 +1,17 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1424,40:082028,100:0e7490&height=160&section=header&text=Satyam%20Shrivastav&fontSize=46&fontColor=22d3ee&fontAlignY=62&animation=fadeIn&desc=Engineering%20intelligent%20systems%20for%20real-world%20problems&descAlignY=82&descSize=16&descColor=67e8f9" />
+
 <div align="center">
 
-# Satyam Shrivastav
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=850&lines=AI+%26+Security+Systems+Architect+%F0%9F%A7%A0;2x+National+Hackathon+1st+Prize+Winner+%F0%9F%8F%86;4x+Peer-Reviewed+Publications+(NASA+%2B+GraphQL+AI)+%F0%9F%93%9A;Edge+AI+%7C+Computer+Vision+%7C+Cybersecurity+%7C+Robotics;Building+useful+systems.+Verifying+the+outcome." alt="Typing SVG" />
 
-**AI & Security Systems Architect** — Edge AI · Computer Vision · Cybersecurity · Robotics
+<br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-satyamshrivastav955.com-22d3ee?style=flat-square&logo=vercel&logoColor=0b1424)](https://satyamshrivastav955.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-satyam--shrivastav-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satyam-shrivastav-239557392/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Satyam12Leet-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/Satyam12Leet/)
+[![Open to Work](https://img.shields.io/badge/Open+to-Collaborate-22d3ee?style=flat-square&logo=github)](mailto:satyamshrivastav955@gmail.com)
+
+<br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=satyamshrivastav955-dotcom&label=Profile+Views&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom)
 [![GitHub followers](https://img.shields.io/github/followers/satyamshrivastav955-dotcom?label=Followers&color=22d3ee&style=flat-square)](https://github.com/satyamshrivastav955-dotcom?tab=followers)
@@ -47,79 +52,29 @@ I build **AI systems, security architectures, and full-stack products** that con
 
 > National championship titles, cash awards, and competitive AI hackathon standings.
 
-<p align="center">
-  <img src="./assets/hackathons-showcase.svg" width="100%" alt="Hackathons & Competitive Victories Showcase" />
-</p>
+<div align="center">
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🥇 CIH '26 — Coimbatore Innovation Hackathon</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Standing-First_Prize-f59e0b?style=flat-square&logo=trophy&logoColor=black" alt="First Prize" />
-        <img src="https://img.shields.io/badge/Award-₹25%2C000_Cash-fbbf24?style=flat-square" alt="Award: ₹25,000" />
-        <img src="https://img.shields.io/badge/Level-National_Verified-0b1424?style=flat-square&logo=checkmarx&logoColor=22d3ee" alt="National Verified" />
-      </p>
-      <b>National Innovation Championship</b> — Awarded 1st Prize out of nationwide engineering teams for innovative hardware &amp; AI architecture. Verified across 4 credential records.
-      <br/><br/>
-      <a href="https://drive.google.com/file/d/1KW87fImSL8dOjaUJ3tnHc7Kyc8yd2RjC/view?usp=drivesdk">
-        <img src="https://img.shields.io/badge/Verified_Certificate-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View CIH 26 Certificate" />
-      </a>
-      &nbsp;<sub><i>4 Aug 2026</i></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🥇 Ikigai 2026 National Hackathon</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Standing-First_Prize-f59e0b?style=flat-square&logo=trophy&logoColor=black" alt="First Prize" />
-        <img src="https://img.shields.io/badge/Award-₹4%2C000_Cash-fbbf24?style=flat-square" alt="Award: ₹4,000" />
-        <img src="https://img.shields.io/badge/Level-National_Verified-0b1424?style=flat-square&logo=checkmarx&logoColor=22d3ee" alt="National Verified" />
-      </p>
-      <b>First Place Winner</b> — Rapid systems prototyping, machine learning model integration, and algorithmic problem-solving under competitive constraints.
-      <br/><br/>
-      <a href="https://drive.google.com/file/d/1kkbnJ9a_QX_yv_RIxcPlnHo5NdlzvIFh/view?usp=drivesdk">
-        <img src="https://img.shields.io/badge/Verified_Certificate-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View Ikigai Certificate" />
-      </a>
-      &nbsp;<sub><i>22 Aug 2026</i></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛰️ ISRO National Space Hackathon</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Standing-National_Finalist-38bdf8?style=flat-square&logo=spacex&logoColor=white" alt="National Finalist" />
-        <img src="https://img.shields.io/badge/Host-ISRO_National-0b1424?style=flat-square&logoColor=22d3ee" alt="ISRO" />
-        <img src="https://img.shields.io/badge/Status-Verified-0b1424?style=flat-square&logo=checkmarx&logoColor=34d399" alt="Verified" />
-      </p>
-      <b>Space Tech &amp; AI Geospatial Analytics</b> — High-stakes national hackathon organized around space telemetry data, Earth observation analytics, and intelligent systems processing.
-      <br/><br/>
-      <a href="https://drive.google.com/file/d/1eT8dYOiQXQpE1k18L4o27QT0RDdXfowy/view?usp=drivesdk">
-        <img src="https://img.shields.io/badge/Verified_Certificate-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View ISRO Certificate" />
-      </a>
-      &nbsp;<sub><i>20 Aug 2026</i></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ Vicodathon 2026 — AI Vibe Coding</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Standing-National_Participant-a855f7?style=flat-square&logo=githubactions&logoColor=white" alt="National Participant" />
-        <img src="https://img.shields.io/badge/Domain-Agentic_AI_Coding-0b1424?style=flat-square&logoColor=c084fc" alt="AI Vibe Coding" />
-      </p>
-      <b>India's Premier AI Vibe Coding Hackathon</b> — Building next-generation autonomous developer workflows, multi-agent pipelines, and rapid AI product prototyping.
-      <br/><br/>
-      <a href="https://drive.google.com/file/d/16KtNEjSGa-_6sa3wxCtL9bOuOhI6gUF_/view?usp=drivesdk">
-        <img src="https://img.shields.io/badge/Verified_Credential-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View Vicodathon Credential" />
-      </a>
-      &nbsp;<sub><i>14 Aug 2026</i></sub>
-    </td>
-  </tr>
-</table>
+<img src="./assets/hackathons-showcase.svg" width="100%" alt="Hackathons & Competitive Victories Showcase" />
 
-<p align="center">
-  <sub><b>Additional National Competitions:</b>
-    <a href="https://drive.google.com/file/d/1BuB1R4h0bGT10-hZjUG3HTgmNrQdNmpH/view?usp=drivesdk">ET AI Hackathon (Verified)</a> &bull;
-    <a href="https://drive.google.com/file/d/1wnBBS0csNmgErU8fvhxzcZLhb9mfUzfB/view?usp=drivesdk">StudAI Hackathon (Verified)</a> &bull;
-    <a href="https://drive.google.com/file/d/1_dsa2roFZOKkklzkFmsisiSkdqACwhjJ/view?usp=drivesdk">InnovaHack 2026 (Verified)</a>
-  </sub>
-</p>
+<br/><br/>
+
+[![CIH '26 Certificate](https://img.shields.io/badge/🥇_CIH_'26_1st_Prize-Verified_Credential_↗-f59e0b?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1KW87fImSL8dOjaUJ3tnHc7Kyc8yd2RjC/view?usp=drivesdk)
+&nbsp;
+[![Ikigai Certificate](https://img.shields.io/badge/🥇_Ikigai_'26_1st_Prize-Verified_Credential_↗-f59e0b?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1kkbnJ9a_QX_yv_RIxcPlnHo5NdlzvIFh/view?usp=drivesdk)
+&nbsp;
+[![ISRO Certificate](https://img.shields.io/badge/🛰️_ISRO_Hackathon-Verified_Credential_↗-38bdf8?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1eT8dYOiQXQpE1k18L4o27QT0RDdXfowy/view?usp=drivesdk)
+&nbsp;
+[![Vicodathon Credential](https://img.shields.io/badge/⚡_Vicodathon_'26-Verified_Credential_↗-a855f7?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/16KtNEjSGa-_6sa3wxCtL9bOuOhI6gUF_/view?usp=drivesdk)
+
+<br/>
+
+<sub><b>Additional Verified Competitions:</b> &nbsp;
+<a href="https://drive.google.com/file/d/1BuB1R4h0bGT10-hZjUG3HTgmNrQdNmpH/view?usp=drivesdk">ET AI Hackathon</a> &nbsp;·&nbsp;
+<a href="https://drive.google.com/file/d/1wnBBS0csNmgErU8fvhxzcZLhb9mfUzfB/view?usp=drivesdk">StudAI Hackathon</a> &nbsp;·&nbsp;
+<a href="https://drive.google.com/file/d/1_dsa2roFZOKkklzkFmsisiSkdqACwhjJ/view?usp=drivesdk">InnovaHack 2026</a>
+</sub>
+
+</div>
 
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
@@ -129,72 +84,21 @@ I build **AI systems, security architectures, and full-stack products** that con
 
 > 1 International Journal &bull; 3 International Conference Publications &bull; Verified Scientific Contributions.
 
-<p align="center">
-  <img src="./assets/publications-showcase.svg" width="100%" alt="Peer-Reviewed Publications Showcase" />
-</p>
+<div align="center">
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🪐 NASA Missions Dashboard: Real-Time Space Analytics</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Type-International_Journal-38bdf8?style=flat-square" alt="International Journal" />
-        <img src="https://img.shields.io/badge/Status-Verified_Publication-22c55e?style=flat-square&logo=checkmarx&logoColor=white" alt="Verified Publication" />
-      </p>
-      <b>Journal of Computer Science Engineering and Software Testing</b><br/>
-      <i>A Real-Time Space Analytics and Visualization System Using Streamlit and NASA APIs.</i> High-throughput live telemetry, Near-Earth Object trajectory tracking, and interactive space exploration intelligence.
-      <br/><br/>
-      <a href="https://drive.google.com/file/d/1UCG-AVRCVX-AOmXhCsDqAuGT0EToVZ4q/view?usp=drivesdk">
-        <img src="https://img.shields.io/badge/Read_Paper_/_Proof-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View NASA Paper" />
-      </a>
-      &nbsp;<sub><i>10 Feb 2026</i></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛡️ Real-Time Hybrid AI for GraphQL API Anomaly Detection</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Type-International_Conference-2dd4bf?style=flat-square" alt="International Conference" />
-        <img src="https://img.shields.io/badge/Status-Verified_Publication-22c55e?style=flat-square&logo=checkmarx&logoColor=white" alt="Verified Publication" />
-      </p>
-      <b>3rd International Conference on Next Generation Computing &amp; Information Systems (ICNGCIS25)</b><br/>
-      <i>Real-Time Hybrid AI Framework for Anomaly Detection in GraphQL APIs under Nested-Query Attacks.</i> Deep query AST decomposition, depth-cost threat modeling, and hybrid anomaly classification (underpins <a href="https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel">GraphQL-Sentinel</a>).
-      <br/><br/>
-      <a href="https://drive.google.com/file/d/1HHzw4yg203f52CLRhzghn-iNG5n5Hgp1/view?usp=drivesdk">
-        <img src="https://img.shields.io/badge/Read_Paper_/_Proof-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View GraphQL Paper" />
-      </a>
-      &nbsp;<sub><i>7 Dec 2025</i></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏥 MediSmart: Intelligent Symptom &amp; Medication Management</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Type-International_Conference-34d399?style=flat-square" alt="International Conference" />
-        <img src="https://img.shields.io/badge/Status-Verified_Publication-22c55e?style=flat-square&logo=checkmarx&logoColor=white" alt="Verified Publication" />
-      </p>
-      <b>International Conference on Emerging Technologies for Multidisciplinary Innovation and Sustainability (ICETMIS25)</b><br/>
-      <i>Intelligent Symptom and Medication Management via Mobile and Web Platform.</i> Clinical decision support, cross-interaction contraindication analysis, and reactive health assistance.
-      <br/><br/>
-      <a href="https://drive.google.com/file/d/1v-jaZ8d4oVey-okqdeLjXFkMbgsP6hMc/view?usp=drivesdk">
-        <img src="https://img.shields.io/badge/Read_Paper_/_Proof-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View MediSmart Paper" />
-      </a>
-      &nbsp;<sub><i>4 Dec 2025</i></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>👁️ Personal Finance Tracker via OCR &amp; Llama Vision</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Type-International_Conference-c084fc?style=flat-square" alt="International Conference" />
-        <img src="https://img.shields.io/badge/Domain-Multimodal_VLM-0b1424?style=flat-square&logoColor=c084fc" alt="Multimodal VLM" />
-      </p>
-      <b>7th International Conference on Advances in Science and Technology (ICAST-2024)</b><br/>
-      <i>Personal Finance Tracker using Optical Character Recognition with Llama Vision.</i> Multimodal visual token parsing for zero-shot transaction categorization and expense reasoning.
-      <br/><br/>
-      <a href="https://drive.google.com/file/d/1A-WLiySdA7d8sr7Dt-2lvzNYS8FxyJZa/view?usp=drivesdk">
-        <img src="https://img.shields.io/badge/Read_Paper_/_Proof-Google_Drive_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424" alt="View Llama Vision Paper" />
-      </a>
-      &nbsp;<sub><i>20 Jun 2025</i></sub>
-    </td>
-  </tr>
-</table>
+<img src="./assets/publications-showcase.svg" width="100%" alt="Peer-Reviewed Publications Showcase" />
+
+<br/><br/>
+
+[![NASA Paper](https://img.shields.io/badge/🪐_NASA_Journal_Paper-Google_Drive_↗-38bdf8?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1UCG-AVRCVX-AOmXhCsDqAuGT0EToVZ4q/view?usp=drivesdk)
+&nbsp;
+[![GraphQL Paper](https://img.shields.io/badge/🛡️_GraphQL_AI_ICNGCIS25-Google_Drive_↗-2dd4bf?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1HHzw4yg203f52CLRhzghn-iNG5n5Hgp1/view?usp=drivesdk)
+&nbsp;
+[![MediSmart Paper](https://img.shields.io/badge/🏥_MediSmart_ICETMIS25-Google_Drive_↗-34d399?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1v-jaZ8d4oVey-okqdeLjXFkMbgsP6hMc/view?usp=drivesdk)
+&nbsp;
+[![Finance OCR Paper](https://img.shields.io/badge/👁️_Finance_OCR_ICAST-Google_Drive_↗-c084fc?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1A-WLiySdA7d8sr7Dt-2lvzNYS8FxyJZa/view?usp=drivesdk)
+
+</div>
 
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
@@ -204,17 +108,23 @@ I build **AI systems, security architectures, and full-stack products** that con
 
 > Real-world engineering internships, model deployments, and certified cloud competencies.
 
-<p align="center">
-  <img src="./assets/experience-showcase.svg" width="100%" alt="Applied Industry Experience Showcase" />
-</p>
+<div align="center">
 
-| Organization | Role | Focus Areas | Verification |
-|:------------|:-----|:------------|:------------:|
-| **Softron, Kolhapur** | **ML Engineer Intern** | Production ML pipelines, computer vision inference, model serving | [Certificate ↗](https://drive.google.com/file/d/1hVqqxFKyz78kqeRAUqONeqq7_xRw_KJU/view?usp=drivesdk) |
-| **SkillOrbit** | **ML Engineering Team Intern** | Deep learning architectures, model training &amp; systems engineering | [Certificate ↗](https://drive.google.com/file/d/13XaB0prLLaKA5wOFmGm0JNPkOV1Gc7Mb/view?usp=drivesdk) |
-| **Coursera &amp; AWS** | **AWS Cloud Technology Consultant** | Cloud infrastructure, microservices, AWS architectural best practices | [Credential ↗](https://drive.google.com/file/d/1tNOxzJV-CIR7rDxigZ8g3LmJj1oA4nD0/view?usp=drivesdk) |
-| **Coursera** | **Fintech Innovations Consultant** | Financial technology innovations, algorithmic pipelines &amp; fraud mitigation | [Credential ↗](https://drive.google.com/file/d/1yUuuT_VlAogilsSrhRqEZpdhsgIOkQ4n/view?usp=drivesdk) |
-| **SkillOrbit** | **Machine Learning Specialization** | Applied ML algorithms, evaluation metrics &amp; pipeline deployment | [Credential ↗](https://drive.google.com/file/d/17hN_neLrXRqwfIPHAnCHWnbJ1y4DcpXh/view?usp=drivesdk) |
+<img src="./assets/experience-showcase.svg" width="100%" alt="Applied Industry Experience Showcase" />
+
+<br/><br/>
+
+[![Softron Certificate](https://img.shields.io/badge/Softron_Kolhapur-ML_Engineer_Intern_↗-22d3ee?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1hVqqxFKyz78kqeRAUqONeqq7_xRw_KJU/view?usp=drivesdk)
+&nbsp;
+[![SkillOrbit Certificate](https://img.shields.io/badge/SkillOrbit-ML_Intern_↗-2dd4bf?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/13XaB0prLLaKA5wOFmGm0JNPkOV1Gc7Mb/view?usp=drivesdk)
+&nbsp;
+[![AWS Credential](https://img.shields.io/badge/AWS-Cloud_Technology_Consultant_↗-f59e0b?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1tNOxzJV-CIR7rDxigZ8g3LmJj1oA4nD0/view?usp=drivesdk)
+&nbsp;
+[![Fintech Credential](https://img.shields.io/badge/Fintech-Innovations_Consultant_↗-a855f7?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/1yUuuT_VlAogilsSrhRqEZpdhsgIOkQ4n/view?usp=drivesdk)
+&nbsp;
+[![ML Specialization](https://img.shields.io/badge/SkillOrbit-ML_Specialization_↗-34d399?style=flat-square&logo=googledrive&logoColor=0b1424)](https://drive.google.com/file/d/17hN_neLrXRqwfIPHAnCHWnbJ1y4DcpXh/view?usp=drivesdk)
+
+</div>
 
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
