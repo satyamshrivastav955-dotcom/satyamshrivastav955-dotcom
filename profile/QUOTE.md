@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Ship small. Ship often. Ship verified.
+> Explainability is not a dashboard. It is a responsibility.
 
-_Last updated: 2026-10-12 02:09:08 UTC (2026-10-12 07:39:08 IST)_
+_Last updated: 2026-10-12 10:25:15 UTC (2026-10-12 15:55:15 IST)_
