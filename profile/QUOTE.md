@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Explainability is not a dashboard. It is a responsibility.
+> A model that cannot be inspected is a model that cannot be trusted.
 
-_Last updated: 2026-10-12 10:25:15 UTC (2026-10-12 15:55:15 IST)_
+_Last updated: 2026-10-12 20:09:55 UTC (2026-10-13 01:39:55 IST)_
