@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> A model that cannot be inspected is a model that cannot be trusted.
+> Talk is cheap. Show me the code. — Linus Torvalds
 
-_Last updated: 2026-10-12 20:09:55 UTC (2026-10-13 01:39:55 IST)_
+_Last updated: 2026-10-13 02:27:57 UTC (2026-10-13 07:57:57 IST)_
