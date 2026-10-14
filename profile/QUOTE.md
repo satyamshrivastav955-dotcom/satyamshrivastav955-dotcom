@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Offline-first means the system still works when the network does not.
+> Perception without reasoning is noise. Reasoning without perception is fiction.
 
-_Last updated: 2026-10-14 18:22:48 UTC (2026-10-14 23:52:48 IST)_
+_Last updated: 2026-10-14 22:07:22 UTC (2026-10-15 03:37:22 IST)_
