@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Explainability is not a dashboard. It is a responsibility.
+> Detect the signal. Explain the risk. Help someone respond.
 
-_Last updated: 2026-10-15 18:05:25 UTC (2026-10-15 23:35:25 IST)_
+_Last updated: 2026-10-15 21:59:39 UTC (2026-10-16 03:29:39 IST)_
