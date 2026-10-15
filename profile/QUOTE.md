@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Perception without reasoning is noise. Reasoning without perception is fiction.
+> Premature optimization is the root of all evil. — Donald Knuth
 
-_Last updated: 2026-10-14 22:07:22 UTC (2026-10-15 03:37:22 IST)_
+_Last updated: 2026-10-15 01:17:07 UTC (2026-10-15 06:47:07 IST)_
