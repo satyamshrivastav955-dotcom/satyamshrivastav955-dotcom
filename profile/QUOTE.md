@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Verify the physical result. Do not trust the plan's description of success.
+> Ship small. Ship often. Ship verified.
 
-_Last updated: 2026-10-16 19:25:43 UTC (2026-10-17 00:55:43 IST)_
+_Last updated: 2026-10-16 22:40:05 UTC (2026-10-17 04:10:05 IST)_
