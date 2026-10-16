@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Detect the signal. Explain the risk. Help someone respond.
+> Build the pipeline, then measure the pipeline, then trust the pipeline.
 
-_Last updated: 2026-10-15 21:59:39 UTC (2026-10-16 03:29:39 IST)_
+_Last updated: 2026-10-16 00:08:07 UTC (2026-10-16 05:38:07 IST)_
