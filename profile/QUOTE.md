@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Perception without reasoning is noise. Reasoning without perception is fiction.
+> Explainability is not a dashboard. It is a responsibility.
 
-_Last updated: 2026-10-17 21:19:21 UTC (2026-10-18 02:49:21 IST)_
+_Last updated: 2026-10-17 23:51:08 UTC (2026-10-18 05:21:08 IST)_
