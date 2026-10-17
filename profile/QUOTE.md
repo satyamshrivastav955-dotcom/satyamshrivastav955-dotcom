@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Detect the signal. Explain the risk. Help someone respond.
+> Latency is a feature — especially when the camera is live.
 
-_Last updated: 2026-10-17 15:11:34 UTC (2026-10-17 20:41:34 IST)_
+_Last updated: 2026-10-17 18:16:12 UTC (2026-10-17 23:46:12 IST)_
