@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Verify the physical result. Do not trust the plan's description of success.
+> The system is only as good as the evidence behind its decision.
 
-_Last updated: 2026-10-18 03:37:42 UTC (2026-10-18 09:07:42 IST)_
+_Last updated: 2026-10-18 08:41:02 UTC (2026-10-18 14:11:02 IST)_
