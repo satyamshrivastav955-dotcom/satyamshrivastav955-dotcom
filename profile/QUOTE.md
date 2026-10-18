@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> The graph stays green when discipline stays daily.
+> Verify the physical result. Do not trust the plan's description of success.
 
-_Last updated: 2026-10-18 13:04:07 UTC (2026-10-18 18:34:07 IST)_
+_Last updated: 2026-10-18 16:28:10 UTC (2026-10-18 21:58:10 IST)_
