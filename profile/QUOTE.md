@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Verify the physical result. Do not trust the plan's description of success.
+> A model that cannot be inspected is a model that cannot be trusted.
 
-_Last updated: 2026-10-18 16:28:10 UTC (2026-10-18 21:58:10 IST)_
+_Last updated: 2026-10-18 19:17:31 UTC (2026-10-19 00:47:31 IST)_
