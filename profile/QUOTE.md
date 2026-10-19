@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Detect the signal. Explain the risk. Help someone respond.
+> Ship small. Ship often. Ship verified.
 
-_Last updated: 2026-10-19 19:07:11 UTC (2026-10-20 00:37:11 IST)_
+_Last updated: 2026-10-19 23:25:36 UTC (2026-10-20 04:55:36 IST)_
