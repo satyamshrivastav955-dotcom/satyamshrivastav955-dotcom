@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Ship small. Ship often. Ship verified.
+> Code is like humor. When you have to explain it, it's bad. — Cory House
 
-_Last updated: 2026-10-18 22:16:46 UTC (2026-10-19 03:46:46 IST)_
+_Last updated: 2026-10-19 00:55:04 UTC (2026-10-19 06:25:04 IST)_
