@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Code is like humor. When you have to explain it, it's bad. — Cory House
+> A model that cannot be inspected is a model that cannot be trusted.
 
-_Last updated: 2026-10-19 00:55:04 UTC (2026-10-19 06:25:04 IST)_
+_Last updated: 2026-10-19 05:51:28 UTC (2026-10-19 11:21:28 IST)_
