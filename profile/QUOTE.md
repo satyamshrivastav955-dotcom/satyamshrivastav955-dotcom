@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Code is like humor. When you have to explain it, it's bad. — Cory House
+> Verify the physical result. Do not trust the plan's description of success.
 
-_Last updated: 2026-10-20 14:47:45 UTC (2026-10-20 20:17:45 IST)_
+_Last updated: 2026-10-20 19:01:35 UTC (2026-10-21 00:31:35 IST)_
