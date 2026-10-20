@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Ship small. Ship often. Ship verified.
+> Latency is a feature — especially when the camera is live.
 
-_Last updated: 2026-10-19 23:25:36 UTC (2026-10-20 04:55:36 IST)_
+_Last updated: 2026-10-20 03:58:50 UTC (2026-10-20 09:28:50 IST)_
