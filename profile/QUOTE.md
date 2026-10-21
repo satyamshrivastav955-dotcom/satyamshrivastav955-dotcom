@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> The system is only as good as the evidence behind its decision.
+> Programs must be written for people to read. — Harold Abelson
 
-_Last updated: 2026-10-21 13:34:13 UTC (2026-10-21 19:04:13 IST)_
+_Last updated: 2026-10-21 18:28:46 UTC (2026-10-21 23:58:46 IST)_
