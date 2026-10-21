@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> First, solve the problem. Then, write the code. — John Johnson
+> The system is only as good as the evidence behind its decision.
 
-_Last updated: 2026-10-21 07:14:21 UTC (2026-10-21 12:44:21 IST)_
+_Last updated: 2026-10-21 13:34:13 UTC (2026-10-21 19:04:13 IST)_
