@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Detect the signal. Explain the risk. Help someone respond.
+> Programs must be written for people to read. — Harold Abelson
 
-_Last updated: 2026-10-22 01:20:28 UTC (2026-10-22 06:50:28 IST)_
+_Last updated: 2026-10-22 07:16:31 UTC (2026-10-22 12:46:31 IST)_
