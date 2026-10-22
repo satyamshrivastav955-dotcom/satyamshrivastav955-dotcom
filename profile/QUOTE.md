@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Programs must be written for people to read. — Harold Abelson
+> Latency is a feature — especially when the camera is live.
 
-_Last updated: 2026-10-22 07:16:31 UTC (2026-10-22 12:46:31 IST)_
+_Last updated: 2026-10-22 13:35:41 UTC (2026-10-22 19:05:41 IST)_
