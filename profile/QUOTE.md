@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> A model that cannot be inspected is a model that cannot be trusted.
+> Latency is a feature — especially when the camera is live.
 
-_Last updated: 2026-10-23 18:09:57 UTC (2026-10-23 23:39:57 IST)_
+_Last updated: 2026-10-23 21:54:46 UTC (2026-10-24 03:24:46 IST)_
