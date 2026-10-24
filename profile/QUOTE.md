@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Verify the physical result. Do not trust the plan's description of success.
+> Latency is a feature — especially when the camera is live.
 
-_Last updated: 2026-10-24 10:31:11 UTC (2026-10-24 16:01:11 IST)_
+_Last updated: 2026-10-24 14:19:45 UTC (2026-10-24 19:49:45 IST)_
