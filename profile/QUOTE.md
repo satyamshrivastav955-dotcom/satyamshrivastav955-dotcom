@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Latency is a feature — especially when the camera is live.
+> Make it work, make it right, make it fast. — Kent Beck
 
-_Last updated: 2026-10-24 14:19:45 UTC (2026-10-24 19:49:45 IST)_
+_Last updated: 2026-10-24 17:56:21 UTC (2026-10-24 23:26:21 IST)_
