@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Make it work, make it right, make it fast. — Kent Beck
+> Offline-first means the system still works when the network does not.
 
-_Last updated: 2026-10-24 17:56:21 UTC (2026-10-24 23:26:21 IST)_
+_Last updated: 2026-10-24 20:25:51 UTC (2026-10-25 01:55:51 IST)_
