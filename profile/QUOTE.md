@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Explainability is not a dashboard. It is a responsibility.
+> Verify the physical result. Do not trust the plan's description of success.
 
-_Last updated: 2026-10-24 05:30:16 UTC (2026-10-24 11:00:16 IST)_
+_Last updated: 2026-10-24 10:31:11 UTC (2026-10-24 16:01:11 IST)_
