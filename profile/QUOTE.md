@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Perception without reasoning is noise. Reasoning without perception is fiction.
+> Detect the signal. Explain the risk. Help someone respond.
 
-_Last updated: 2026-10-25 18:13:55 UTC (2026-10-25 23:43:55 IST)_
+_Last updated: 2026-10-25 21:31:51 UTC (2026-10-26 03:01:51 IST)_
