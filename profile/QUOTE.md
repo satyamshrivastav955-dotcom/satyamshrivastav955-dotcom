@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> A model that cannot be inspected is a model that cannot be trusted.
+> Perception without reasoning is noise. Reasoning without perception is fiction.
 
-_Last updated: 2026-10-25 14:53:44 UTC (2026-10-25 20:23:44 IST)_
+_Last updated: 2026-10-25 18:13:55 UTC (2026-10-25 23:43:55 IST)_
