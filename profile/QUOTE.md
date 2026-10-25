@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Offline-first means the system still works when the network does not.
+> First, solve the problem. Then, write the code. — John Johnson
 
-_Last updated: 2026-10-24 22:58:35 UTC (2026-10-25 04:28:35 IST)_
+_Last updated: 2026-10-25 00:54:15 UTC (2026-10-25 06:24:15 IST)_
