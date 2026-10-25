@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> First, solve the problem. Then, write the code. — John Johnson
+> Latency is a feature — especially when the camera is live.
 
-_Last updated: 2026-10-25 00:54:15 UTC (2026-10-25 06:24:15 IST)_
+_Last updated: 2026-10-25 05:47:57 UTC (2026-10-25 11:17:57 IST)_
