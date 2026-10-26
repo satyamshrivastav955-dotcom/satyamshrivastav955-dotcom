@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Perception without reasoning is noise. Reasoning without perception is fiction.
+> The system is only as good as the evidence behind its decision.
 
-_Last updated: 2026-10-26 16:37:46 UTC (2026-10-26 22:07:46 IST)_
+_Last updated: 2026-10-26 21:27:37 UTC (2026-10-27 02:57:37 IST)_
