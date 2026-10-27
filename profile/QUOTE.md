@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> The system is only as good as the evidence behind its decision.
+> Offline-first means the system still works when the network does not.
 
-_Last updated: 2026-10-26 21:27:37 UTC (2026-10-27 02:57:37 IST)_
+_Last updated: 2026-10-27 01:16:11 UTC (2026-10-27 06:46:11 IST)_
