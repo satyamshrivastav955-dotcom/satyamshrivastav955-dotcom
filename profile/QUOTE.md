@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Detect the signal. Explain the risk. Help someone respond.
+> Verify the physical result. Do not trust the plan's description of success.
 
-_Last updated: 2026-10-27 19:54:16 UTC (2026-10-28 01:24:16 IST)_
+_Last updated: 2026-10-27 23:36:47 UTC (2026-10-28 05:06:47 IST)_
