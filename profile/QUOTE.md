@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Code is like humor. When you have to explain it, it's bad. — Cory House
+> Detect the signal. Explain the risk. Help someone respond.
 
-_Last updated: 2026-10-27 14:08:08 UTC (2026-10-27 19:38:08 IST)_
+_Last updated: 2026-10-27 19:54:16 UTC (2026-10-28 01:24:16 IST)_
