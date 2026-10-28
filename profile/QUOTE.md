@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Verify the physical result. Do not trust the plan's description of success.
+> Make it work, make it right, make it fast. — Kent Beck
 
-_Last updated: 2026-10-27 23:36:47 UTC (2026-10-28 05:06:47 IST)_
+_Last updated: 2026-10-28 04:40:45 UTC (2026-10-28 10:10:45 IST)_
