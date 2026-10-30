@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Latency is a feature — especially when the camera is live.
+> Build the pipeline, then measure the pipeline, then trust the pipeline.
 
-_Last updated: 2026-10-30 08:15:47 UTC (2026-10-30 13:45:47 IST)_
+_Last updated: 2026-10-30 15:40:35 UTC (2026-10-30 21:10:35 IST)_
