@@ -1,5 +1,5 @@
 # 💡 Dev Quote (auto-rotated hourly)
 
-> Talk is cheap. Show me the code. — Linus Torvalds
+> Detect the signal. Explain the risk. Help someone respond.
 
-_Last updated: 2026-10-31 06:45:44 UTC (2026-10-31 12:15:44 IST)_
+_Last updated: 2026-10-31 13:25:26 UTC (2026-10-31 18:55:26 IST)_
