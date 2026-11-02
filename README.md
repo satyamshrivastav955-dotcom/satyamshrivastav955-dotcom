@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-satyamshrivastav955.com-58a6ff?style=flat-square&logo=vercel&logoColor=white)](https://satyamshrivastav955.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-satyam--shrivastav-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satyam-shrivastav-239557392/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Satyam12Leet-30363d?style=flat-square&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/Satyam12Leet/)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0002--8658--0327-30363d?style=flat-square&logo=orcid&logoColor=A6CE39)](https://orcid.org/0009-0002-8658-0327)
 [![Email](https://img.shields.io/badge/Email-Get_in_touch-30363d?style=flat-square&logo=gmail&logoColor=white)](mailto:satyamshrivastav955@gmail.com)
 [![Followers](https://img.shields.io/github/followers/satyamshrivastav955-dotcom?label=Followers&style=flat-square&color=30363d&labelColor=161b22)](https://github.com/satyamshrivastav955-dotcom?tab=followers)
 [![Profile views](https://komarev.com/ghpvc/?username=satyamshrivastav955-dotcom&label=Views&color=30363d&style=flat-square)](https://github.com/satyamshrivastav955-dotcom)
@@ -110,21 +110,27 @@ I build AI systems and security tooling: computer vision, efficient multimodal i
 <table>
   <tr>
     <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/call-shield"><img src="./assets/card-callshield.svg" alt="CallShield" /></a></td>
-    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/GraphQL-Sentinel"><img src="./assets/card-graphql.svg" alt="GraphQL-Sentinel" /></a></td>
+    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/graphql-demand-control-gateway"><img src="./assets/card-graphql.svg" alt="GraphQL Sentinel" /></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/satyamshrivastav955-dotcom/hybrid-ai-nids"><img src="./assets/card-nids.svg" alt="Hybrid AI NIDS" /></a></td>
-    <td><a href="https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent"><img src="./assets/card-robot.svg" alt="Language-to-Action Robot Agent" /></a></td>
+    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/hybrid-ai-nids"><img src="./assets/card-nids.svg" alt="Hybrid AI NIDS" /></a></td>
+    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/language-to-action-robot-agent"><img src="./assets/card-robot.svg" alt="Language-to-Action Robot Agent" /></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/satyamshrivastav955-dotcom/face-blockchain-verification"><img src="./assets/card-face.svg" alt="Face Blockchain Verification" /></a></td>
-    <td><a href="https://github.com/satyamshrivastav955-dotcom/taskorbit"><img src="./assets/card-taskorbit.svg" alt="TaskOrbit" /></a></td>
+    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/face-blockchain-verification"><img src="./assets/card-face.svg" alt="FaceProof" /></a></td>
+    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/locus-x"><img src="./assets/card-locus.svg" alt="LOCUS-X" /></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/satyamshrivastav955-dotcom/student-performance-prediction-system"><img src="./assets/card-student.svg" alt="Student Performance Intelligence" /></a></td>
-    <td><a href="https://github.com/satyamshrivastav955-dotcom?tab=repositories"><img src="./assets/card-more.svg" alt="More repositories" /></a></td>
+    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/reprocheck"><img src="./assets/card-repro.svg" alt="ReproCheck" /></a></td>
+    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/taskorbit"><img src="./assets/card-taskorbit.svg" alt="TaskOrbit" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/student-performance-prediction-system"><img src="./assets/card-student.svg" alt="Student Performance Intelligence" /></a></td>
+    <td width="50%"><a href="https://github.com/satyamshrivastav955-dotcom/argus-vlm-optimization"><img src="./assets/card-more.svg" alt="ARGUS VLM Optimization" /></a></td>
   </tr>
 </table>
+
+<div align="center"><sub>Everything else is on <a href="https://github.com/satyamshrivastav955-dotcom?tab=repositories">my repositories page</a>.</sub></div>
 
 <img src="./assets/sec-achievements.svg" width="100%" alt="Achievements" />
 

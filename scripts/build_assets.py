@@ -104,44 +104,47 @@ def section(slug, num, title, sub=""):
 
 
 # ---------------------------------------------------------------- project cards
-def card(slug, cat, color, title, desc, tags):
-    W, H = 490, 210
-    body = (f'<rect x=".5" y=".5" width="489" height="209" rx="12" fill="{CARD}" stroke="{LINE}"/>'
+def card(slug, cat, color, title, desc, tags, metric=""):
+    W, H = 490, 238
+    body = (f'<rect x=".5" y=".5" width="489" height="237" rx="12" fill="{CARD}" stroke="{LINE}"/>'
             f'<rect x="1" y="24" width="3" height="22" rx="1.5" fill="{color}"/>'
             + f'<circle cx="26" cy="35" r="4" fill="{color}"/>'
             + text(38, 39, cat, 11, color, 600, mono=True, spacing=1.5)
             + text(466, 39, "↗", 16, DIM, anchor="end")
             + text(24, 76, title, 21, TXT, 700, extra='letter-spacing="-0.3"')
             + wrapped(24, 104, desc, 66)
-            + pills(24, 168, tags))
+            + f'<line x1="24" y1="156" x2="466" y2="156" stroke="{LINE}"/>'
+            + text(24, 180, metric, 12.5, color, 600, mono=True)
+            + pills(24, 198, tags))
     save(f"card-{slug}.svg", W, H, body)
 
 
 # ---------------------------------------------------------------- ARGUS flagship
 def argus():
-    W, H = 1000, 340
-    stages = [("CAMERA FEED", "RTSP · USB · file", BLUE), ("PERCEIVE", "YOLO · ByteTrack · Pose", BLUE),
+    W, H = 1000, 362
+    stages = [("CAMERA FEED", "Webcam · video file", BLUE), ("PERCEIVE", "YOLO · ByteTrack · Pose", BLUE),
               ("REASON", "Quantized Qwen2.5-VL", PURPLE), ("ALERT", "Offline · Bitchat link", GREEN)]
     s = ""
     for i, (a, b, c) in enumerate(stages):
         x = 40 + i * 240
-        s += (f'<rect x="{x}" y="236" width="200" height="64" rx="10" fill="{BG}" stroke="{LINE}"/>'
-              f'<rect x="{x}" y="236" width="200" height="3" rx="1.5" fill="{c}"/>'
-              + text(x + 16, 264, a, 11, c, 600, mono=True, spacing=1.5)
-              + text(x + 16, 284, b, 12.5, MUTED))
+        s += (f'<rect x="{x}" y="258" width="200" height="64" rx="10" fill="{BG}" stroke="{LINE}"/>'
+              f'<rect x="{x}" y="258" width="200" height="3" rx="1.5" fill="{c}"/>'
+              + text(x + 16, 286, a, 11, c, 600, mono=True, spacing=1.5)
+              + text(x + 16, 306, b, 12.5, MUTED))
         if i < 3:
             ax = x + 208
-            s += (f'<line x1="{ax}" y1="268" x2="{ax + 24}" y2="268" stroke="{BLUE}" stroke-width="1.5" '
+            s += (f'<line x1="{ax}" y1="290" x2="{ax + 24}" y2="290" stroke="{BLUE}" stroke-width="1.5" '
                   f'stroke-dasharray="4 4"><animate attributeName="stroke-dashoffset" from="16" to="0" '
                   f'dur="1.2s" repeatCount="indefinite"/></line>'
-                  f'<path d="M{ax + 24} 263 l7 5 l-7 5" fill="none" stroke="{BLUE}" stroke-width="1.5"/>')
-    body = (f'<rect x=".5" y=".5" width="999" height="339" rx="16" fill="url(#g)" stroke="{LINE}"/>'
+                  f'<path d="M{ax + 24} 285 l7 5 l-7 5" fill="none" stroke="{BLUE}" stroke-width="1.5"/>')
+    body = (f'<rect x=".5" y=".5" width="999" height="361" rx="16" fill="url(#g)" stroke="{LINE}"/>'
             + text(40, 54, "FLAGSHIP BUILD  ·  IN ACTIVE DEVELOPMENT", 11.5, BLUE, 600, mono=True, spacing=2)
             + text(40, 104, "ARGUS", 46, TXT, 700, extra='letter-spacing="-1"')
             + text(40, 134, "Offline AI video intelligence", 17, MUTED)
-            + wrapped(40, 168, "See the scene. Understand the event. Deliver the alert. ARGUS turns camera feeds "
+            + wrapped(40, 164, "See the scene. Understand the event. Deliver the alert. ARGUS turns camera feeds "
                       "into structured observations and event-driven alerts, running entirely on constrained "
                       "local hardware instead of the cloud.", 105, 14, MUTED, 22)
+            + text(40, 238, "18–25 FPS with the VLM running  ·  ~40% of a 6 GB GPU  ·  46% lower pose overhead", 12.5, BLUE, 600, mono=True)
             + s)
     defs = ('<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/>'
             '<stop offset="1" stop-color="#152238"/></linearGradient>')
@@ -191,29 +194,45 @@ def main():
         section(slug, num, title, sub)
     argus()
     card("callshield", "SECURITY  ·  MULTIMODAL", PURPLE, "CallShield",
-         "Scam and impersonation defense. Fuses synthetic-voice, speaker and scam-language signals through a "
-         "LangGraph workflow into an explainable risk summary.", ["LangGraph", "PyTorch", "Android"])
-    card("graphql", "SECURITY  ·  API", PURPLE, "GraphQL-Sentinel",
-         "Runtime GraphQL security gateway. Analyses each operation against configurable policies and explains "
-         "exactly why a request was blocked. Backed by a published paper.", ["React", "Policy engine", "Paper"])
+         "Real-time voice authenticity and social-engineering defense. Fuses synthetic-voice, speaker and "
+         "scam-language signals into an explainable risk summary.", ["LangGraph", "PyTorch", "Android"],
+         "Android + Windows + web clients")
+    card("graphql", "SECURITY  ·  API", PURPLE, "GraphQL Sentinel",
+         "Runtime GraphQL security gateway with query-complexity controls and policy enforcement that explains "
+         "why a request was blocked. Backed by a published paper.", ["FastAPI", "React", "Docker"],
+         "434 B fragment bomb → 16,403 fields, blocked")
     card("nids", "SECURITY  ·  ML", PURPLE, "Hybrid AI NIDS",
          "Network intrusion detection from four fused models (RF, autoencoder, Isolation Forest, LSTM) with PSI "
-         "drift monitoring and a SOC dashboard on CICIDS2017.", ["FastAPI", "React", "CICIDS2017"])
+         "drift monitoring and a SOC dashboard on CICIDS2017.", ["FastAPI", "React", "CICIDS2017"],
+         "F1 0.9988  ·  FPR 0.0001  ·  0.23 ms/flow")
     card("robot", "ROBOTICS  ·  AGENTS", AMBER, "Language-to-Action Robot Agent",
          "A local LLM plans a 6-DOF arm task in MuJoCo, then a ground-truth verifier checks the real outcome and "
-         "retries from measured error.", ["MuJoCo", "Local LLM", "IK control"])
-    card("face", "PROVENANCE  ·  WEB3", GREEN, "Face Blockchain Verification",
-         "Tamper-evident image provenance. Similarity evidence is canonicalized into a SHA-256 digest anchored "
-         "by a Solidity registry on Base Sepolia.", ["Solidity", "SFace", "Base Sepolia"])
+         "retries from measured error.", ["MuJoCo", "Local LLM", "IK control"],
+         "Plan → execute → verify → retry")
+    card("face", "PROVENANCE  ·  WEB3", GREEN, "FaceProof",
+         "Evidence-first image provenance: local face analysis and reverse-image search feed a hashed record "
+         "anchored by a Solidity registry. Not an identity system.", ["Solidity", "OpenCV", "FastAPI"],
+         "Embeddings stay off-chain")
+    card("locus", "LOCALIZATION  ·  DIGITAL TWIN", AMBER, "LOCUS-X",
+         "Indoor positioning under sparse anchors, noisy ranges and NLOS bias, with uncertainty-aware tracking "
+         "and a 3D hospital digital twin. Team build for CODE APEX 3.0.", ["Python", "FastAPI", "React"],
+         "Multi-floor 3D  ·  LOS/NLOS model")
+    card("repro", "DEV TOOLING  ·  TRUST", GREEN, "ReproCheck",
+         "Passing tests don't prove reproducibility. Runs verification twice in isolated workspaces and compares "
+         "artifacts to catch drift.", ["Python", "Docker", "uv"],
+         "2 passing runs → drift_detected")
     card("taskorbit", "PRODUCT  ·  FULL-STACK", BLUE, "TaskOrbit",
          "Role-aware delivery workspace: kanban with submission and revision cycles, deadline conflict detection "
-         "and versioned deliverables.", ["React", "TypeScript", "Firebase"])
+         "and versioned deliverables.", ["React", "TypeScript", "Firebase"],
+         "4 roles  ·  versioned deliverables")
     card("student", "ML  ·  EXPLAINABLE", GREEN, "Student Performance Intelligence",
          "Explainable academic risk prediction with TreeSHAP, DiCE counterfactuals and Fairlearn auditing, "
-         "backed by a model card and tests.", ["scikit-learn", "SHAP", "Streamlit"])
-    card("more", "ALSO BUILDING", BLUE, "More on GitHub",
-         "bias-aware-360-review-system (n8n + LLM agents), retailiq-inventory-system and VoiceShield. "
-         "Browse every repository on my profile.", ["n8n", "LLM agents", "Inventory"])
+         "backed by a model card and tests.", ["scikit-learn", "SHAP", "Streamlit"],
+         "Fairness-audited  ·  model card")
+    card("more", "ARGUS RESEARCH", BLUE, "ARGUS VLM Optimization",
+         "Temporal visual-token pruning and quantized KV-cache study for long-context video reasoning, the "
+         "research companion to ARGUS.", ["VLM", "Quantization", "Benchmarks"],
+         "39.9% tokens pruned  ·  31/31 tests")
     achievements()
 
 
