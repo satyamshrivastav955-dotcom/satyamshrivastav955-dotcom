@@ -18,27 +18,27 @@ jobs:
 
       - name: Generate GitHub Stats Card
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=satyamshrivastav955-dotcom&show_icons=true&count_private=true&include_all_commits=true&bg_color=0b1424&title_color=22d3ee&icon_color=22d3ee&text_color=e2e8f0&hide_border=true&rank_icon=github&show=reviews,prs_merged,prs_merged_percentage" -o profile/stats.svg
+          curl -s "https://github-readme-stats.vercel.app/api?username=satyamshrivastav955-dotcom&show_icons=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d&rank_icon=github" -o /tmp/stats.svg
 
       - name: Generate Top Languages Card
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=satyamshrivastav955-dotcom&layout=compact&langs_count=10&bg_color=0b1424&title_color=22d3ee&text_color=e2e8f0&hide_border=true" -o profile/top-langs.svg
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=satyamshrivastav955-dotcom&layout=compact&langs_count=8&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=30363d" -o /tmp/top-langs.svg
 
-      - name: Verify cards are valid SVG (not error pages)
+      - name: Install cards only if they are valid SVG
         run: |
-          if grep -q "Something went wrong" profile/stats.svg; then
-            echo "❌ stats.svg contains an error!" && cat profile/stats.svg && exit 1
-          fi
-          if grep -q "Something went wrong" profile/top-langs.svg; then
-            echo "❌ top-langs.svg contains an error!" && cat profile/top-langs.svg && exit 1
-          fi
-          echo "✅ Both cards generated successfully"
+          for f in stats top-langs; do
+            if ! head -c 2000 /tmp/$f.svg | grep -q "<svg" || grep -q "Something went wrong" /tmp/$f.svg; then
+              echo "$f.svg is not a valid card; keeping the previous version"
+              exit 0
+            fi
+          done
+          cp /tmp/stats.svg profile/stats.svg
+          cp /tmp/top-langs.svg profile/top-langs.svg
 
       - name: Commit and push updated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add profile/stats.svg profile/top-langs.svg
           if git diff --staged --quiet; then
             echo "No changes to commit."

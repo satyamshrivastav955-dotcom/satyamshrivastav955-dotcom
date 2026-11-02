@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" role="img" aria-label="Minimal section divider">
-  <path d="M0 12H530M670 12H1200" stroke="#30363d" stroke-width="1"/>
-  <path d="M560 5H568V19H560ZM575 8H583V16H575ZM590 3H598V21H590ZM605 8H613V16H605ZM620 5H628V19H620" fill="#586575"/>
-  <circle cx="650" cy="12" r="2.5" fill="#73d6e2"/>
-</svg>
