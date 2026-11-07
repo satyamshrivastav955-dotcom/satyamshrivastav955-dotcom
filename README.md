@@ -19,7 +19,7 @@ I build AI systems and security tooling: computer vision, efficient multimodal i
 |:--|:--|
 | 🔭 **Currently building** | [ARGUS](https://github.com/satyamshrivastav955-dotcom/ai-surveillance), an offline video-intelligence system |
 | 🔬 **Researching** | Token pruning and quantized KV-cache for long-context video VLMs |
-| 💼 **Experience** | ML Engineer Intern at Softron and SkillOrbit |
+| 💼 **Experience** | ML Engineer Intern at Softron and SkillOrbit Banglore |
 | 🎯 **Focus** | Edge AI, computer vision, cybersecurity, robotics |
 
 <img src="./assets/sec-glance.svg" width="100%" alt="GitHub at a Glance" />
